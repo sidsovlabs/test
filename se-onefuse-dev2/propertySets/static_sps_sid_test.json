@@ -1,0 +1,36 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/253/",
+            "title": "sps_sid_test"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "Global_Props": {
+            "folderName": "VRM-BACKUPEXCLUDED/demo/{{folderGroup}}/{{folderEnv}}"
+        },
+        "OneFuse_VRA7_Props": {
+            "OneFuse_SPS_Group": "sps_group_{{businessGroup}}",
+            "VMware.VirtualCenter.Folder": "{{folderName}}"
+        },
+        "OneFuse_VRA8_Props": {
+            "OneFuse_SPS_Group": "sps_group_{{OneFuse_ProjectName}}",
+            "resourceGroupName": "{{folderName}}"
+        },
+        "OneFuse_TF_Props": {
+            "rootFolder": "VRM-BACKUPEXCLUDED/demo/",
+            "IPv4_Netmask": "{{subnet[-2:]}}"
+        },
+        "OneFuse_CB_Props": {
+            "OneFuse_SPS_Group": "sps_group_{{ group | replace(' ','') }}"
+        }
+    },
+    "id": 253,
+    "name": "sps_sid_test",
+    "type": "static",
+    "description": ""
+}

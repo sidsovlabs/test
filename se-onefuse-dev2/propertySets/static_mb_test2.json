@@ -1,0 +1,17 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/104/",
+            "title": "mb_test2"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": "{\"test\": \"01\"}",
+    "id": 104,
+    "name": "mb_test2",
+    "type": "static",
+    "description": "this is a test"
+}

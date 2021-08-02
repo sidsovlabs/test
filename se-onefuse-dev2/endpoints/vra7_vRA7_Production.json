@@ -1,0 +1,25 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/endpoints/4/",
+            "title": "vRA7_Production"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "credential": {
+            "href": "/api/v3/onefuse/moduleCredentials/1/",
+            "title": "vrasvc_vra7"
+        }
+    },
+    "id": 4,
+    "type": "vra7",
+    "name": "vRA7_Production",
+    "description": "Production_vRA7",
+    "singleThreaded": true,
+    "host": "vra76demo-iaas.sovlabs.net",
+    "port": 443,
+    "ssl": true,
+    "vraVersion": "7.6"
+}

@@ -1,0 +1,34 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/ipamPolicies/16/",
+            "title": "F5_VIP"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "endpoint": {
+            "href": "/api/v3/onefuse/endpoints/6/",
+            "title": "infoblox851_endpoint"
+        }
+    },
+    "id": 16,
+    "type": "infoblox",
+    "name": "F5_VIP",
+    "hostnameOverride": "{{ request.hostname }}",
+    "description": null,
+    "primaryDns": null,
+    "secondaryDns": null,
+    "dnsSuffix": null,
+    "dnsSearchSuffixes": null,
+    "nicLabel": null,
+    "subnets": [
+        {
+            "subnet": "10.30.30.0/24",
+            "gateway": "10.30.30.1",
+            "network": "",
+            "netmask": ""
+        }
+    ]
+}

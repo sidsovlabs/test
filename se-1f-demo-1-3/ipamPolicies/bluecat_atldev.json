@@ -1,0 +1,34 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/ipamPolicies/1/",
+            "title": "atldev"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "endpoint": {
+            "href": "/api/v3/onefuse/endpoints/2/",
+            "title": "bluecat92"
+        }
+    },
+    "id": 1,
+    "type": "bluecat",
+    "name": "atldev",
+    "description": "Bluecat - Atlanta Development IPAM Profile",
+    "hostnameOverride": "{{ request.hostname }}",
+    "primaryDns": "10.30.0.11",
+    "secondaryDns": "10.30.0.12",
+    "dnsSuffix": "{{dnsSuffix}}",
+    "dnsSearchSuffixes": "bluecat92.sovlabs.net,sovlabs.net",
+    "nicLabel": null,
+    "subnets": [
+        {
+            "subnet": "10.30.27.0/24",
+            "gateway": "10.30.27.1",
+            "network": "dvs_SovLabs_327_10.30.27.0_24",
+            "netmask": ""
+        }
+    ]
+}

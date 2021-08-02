@@ -1,0 +1,34 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/180/",
+            "title": "ptk_globalproperties"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "folderName": "VRM-BACKUPEXCLUDED/demo/{{folderGroup}}/{{folderEnv}}",
+        "OneFuse_VRA7_Props": {
+            "OneFuse_SPS_Group": "ptk_group_{{businessGroup}}",
+            "VMware.VirtualCenter.Folder": "{{folderName}}"
+        },
+        "OneFuse_VRA8_Props": {
+            "OneFuse_SPS_Group": "ptk_group_{{OneFuse_ProjectName | lower | replace(' ','') }}",
+            "resourceGroupName": "{{folderName}}"
+        },
+        "OneFuse_TF_Props": {
+            "rootFolder": "{{folderName}}",
+            "IPv4_Netmask": "{{subnet[-2:]}}"
+        },
+        "OneFuse_CB_Props": {
+            "OneFuse_SPS_Group": "ptk_group_{{ group | lower | replace(' ','') }}"
+        }
+    },
+    "id": 180,
+    "name": "ptk_globalproperties",
+    "type": "static",
+    "description": "OneFuse Property Toolkit Property Set"
+}

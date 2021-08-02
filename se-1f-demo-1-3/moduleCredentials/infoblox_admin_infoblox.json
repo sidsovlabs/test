@@ -1,0 +1,18 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/moduleCredentials/3/",
+            "title": "admin_infoblox"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "id": 3,
+    "name": "admin_infoblox",
+    "description": "Infoblox851 Credentials",
+    "username": "admin",
+    "endpointType": "infoblox",
+    "connectionMethod": "basic"
+}

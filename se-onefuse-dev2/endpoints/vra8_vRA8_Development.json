@@ -1,0 +1,26 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/endpoints/3/",
+            "title": "vRA8_Development"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "credential": {
+            "href": "/api/v3/onefuse/moduleCredentials/2/",
+            "title": "vrasvc_vra8"
+        }
+    },
+    "id": 3,
+    "type": "vra8",
+    "name": "vRA8_Development",
+    "description": "Development_vRA8",
+    "singleThreaded": true,
+    "host": "vra82demo01.sovlabs.net",
+    "port": 443,
+    "ssl": true,
+    "vraVersion": "8.1",
+    "vraOrganizationName": "vidm82-01"
+}

@@ -1,0 +1,27 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/ansibleTowerPolicies/1/",
+            "title": "linux_build"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "endpoint": {
+            "href": "/api/v3/onefuse/endpoints/1/",
+            "title": "ansible37"
+        }
+    },
+    "id": 1,
+    "name": "linux_build",
+    "description": "",
+    "organizationName": "Default",
+    "provisioningJobTemplates": "[\n{\n\"name\":\"automation-createDirectory-Linux\"\n}\n]",
+    "deprovisioningJobTemplates": "",
+    "machineCredentialOverride": "linuxroot",
+    "extraVarsOverride": "{\n\t\"OS\": \"{{var1}}\"\n  \"sfolder\": \"onefuse\"\n}",
+    "inventoryName": "automation-onefuse",
+    "groups": "[\n  \"linuxservers\"\n]",
+    "verifyPromptOnLaunchForLimit": true
+}

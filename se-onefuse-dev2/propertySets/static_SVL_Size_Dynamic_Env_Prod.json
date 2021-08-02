@@ -1,0 +1,19 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/133/",
+            "title": "SVL_Size_Dynamic_Env_Prod"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "{% if SovLabs_App_CPU and SovLabs_CPU_Multiplier %}{% assign cpu = SovLabs_App_CPU | times: SovLabs_CPU_Multiplier %}{% endif %}{% assign cpu = cpu | default: 1 %}{% if cpu > 8 %}VirtualMachine.Core.Count{% else %}nullProp{% endif %}": "{% if SovLabs_App_CPU and SovLabs_CPU_Multiplier %}{% assign cpu = SovLabs_App_CPU | times: SovLabs_CPU_Multiplier %}{% endif %}{% assign cpu = cpu | default: 1 %}{% if cpu > 8 %}{{cpu | divided_by: 2 }}{% else %}true{% endif %}"
+    },
+    "id": 133,
+    "name": "SVL_Size_Dynamic_Env_Prod",
+    "type": "static",
+    "description": "Create by OneFuse vRA Package"
+}

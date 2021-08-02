@@ -1,0 +1,19 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/276/",
+            "title": "sps_odd"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "deployment_count": "1"
+    },
+    "id": 276,
+    "name": "sps_odd",
+    "type": "static",
+    "description": ""
+}

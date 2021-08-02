@@ -1,0 +1,19 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/209/",
+            "title": "ptk_size_alg_medium"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "node_size": "Standard_B1ms"
+    },
+    "id": 209,
+    "name": "ptk_size_alg_medium",
+    "type": "static",
+    "description": ""
+}

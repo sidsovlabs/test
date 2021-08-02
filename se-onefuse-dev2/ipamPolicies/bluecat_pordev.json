@@ -1,0 +1,34 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/ipamPolicies/8/",
+            "title": "pordev"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "endpoint": {
+            "href": "/api/v3/onefuse/endpoints/9/",
+            "title": "bluecat92"
+        }
+    },
+    "id": 8,
+    "type": "bluecat",
+    "name": "pordev",
+    "description": "Bluecat - Portland Development IPAM Profile",
+    "hostnameOverride": "{{ request.hostname }}",
+    "secondaryDns": "10.30.0.12",
+    "dnsSuffix": "{{dnsSuffix}}",
+    "dnsSearchSuffixes": "bluecat92.sovlabs.net,sovlabs.net",
+    "primaryDns": null,
+    "nicLabel": null,
+    "subnets": [
+        {
+            "subnet": "10.30.27.0/24",
+            "gateway": "10.30.27.1",
+            "network": "dvs_SovLabs_327_10.30.27.0_24",
+            "netmask": ""
+        }
+    ]
+}

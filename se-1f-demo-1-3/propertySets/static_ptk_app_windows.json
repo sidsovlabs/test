@@ -1,0 +1,23 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/165/",
+            "title": "ptk_app_windows"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "nameApp": "app",
+        "ipamApp": "app",
+        "OneFuse_SPS_OS": "ptk_os_windows2019",
+        "tagApp": "Windows2019",
+        "deployNameApp": "WINDOWS"
+    },
+    "id": 165,
+    "name": "ptk_app_windows",
+    "type": "static",
+    "description": "OneFuse Property Toolkit Property Set"
+}

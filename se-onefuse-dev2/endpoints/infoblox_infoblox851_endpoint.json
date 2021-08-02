@@ -1,0 +1,31 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/endpoints/6/",
+            "title": "infoblox851_endpoint"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "credential": {
+            "href": "/api/v3/onefuse/moduleCredentials/3/",
+            "title": "admin_infoblox"
+        }
+    },
+    "id": 6,
+    "type": "infoblox",
+    "name": "infoblox851_endpoint",
+    "description": "Infoblox 8.5.1",
+    "singleThreaded": true,
+    "host": "infoblox851.sovlabs.net",
+    "port": 443,
+    "ssl": true,
+    "infobloxVersion": "8.5",
+    "dnsView": "default",
+    "hostRecordTemplate": "{\"name\":\"{{request.hostname}}\",\"view\":\"{{endpoint.dnsView}}\",\"comment\":\"Created by OneFuse\",\"ipv4addrs\":[{\"ipv4addr\":\"{{ request.ipaddress }}\"}]}",
+    "aRecordTemplate": "{\"name\":\"{{request.hostname}}\",\"ipv4addr\":\"{{request.ipaddress}}\",\"view\":\"{{endpoint.dnsView}}\",\"comment\":\"Created by OneFuse\"}",
+    "ptrRecordTemplate": "{\"name\":\"{{request.hostname}}\",\"ptrdname\":\"{{request.hostname}}\",\"ipv4addr\":\"{{request.ipaddress}}\",\"view\":\"{{endpoint.dnsView}}\",\"comment\":\"Created by OneFuse\"}",
+    "networkView": "default",
+    "fixedAddressRecordTemplate": "{\"name\":\"{{request.hostname}}\",\"ipv4addr\":\"{{request.ipaddress}}\",\"mac\":\"{{request.mac}}\",\"network_view\":\"{{endpoint.networkView}}\",\"comment\":\"Created by OneFuse.\"}"
+}

@@ -1,0 +1,34 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/152/",
+            "title": "template_atlanta_dev_lin_app"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "nameEnv": "d",
+        "folderEnv": "DEV",
+        "ipamEnv": "dev",
+        "ouEnv": "DEV",
+        "sgEnv": "dev",
+        "nameLocation": "atl",
+        "ipamLocation": "atl",
+        "familyOS": "linux",
+        "nameOS": "l",
+        "folderGroup": "PiedPiper",
+        "nameGroup": "pp",
+        "ouGroup": "PiedPiper",
+        "nameApp": "app",
+        "deployNameRequestSource": "VRA",
+        "deployNameEnv": "DEV",
+        "deployNameApp": "APP"
+    },
+    "id": 152,
+    "name": "template_atlanta_dev_lin_app",
+    "type": "static",
+    "description": "Demo Static Property Set"
+}

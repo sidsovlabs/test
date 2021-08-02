@@ -1,0 +1,24 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/namingPolicies/7/",
+            "title": "docker_port"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "namingSequences": [
+            {
+                "href": "/api/v3/onefuse/namingSequences/5/",
+                "title": "port"
+            }
+        ],
+        "validationPolicies": []
+    },
+    "name": "docker_port",
+    "id": 7,
+    "template": "{{port_use}}{{sequence.port}}",
+    "description": "",
+    "dnsSuffix": ""
+}

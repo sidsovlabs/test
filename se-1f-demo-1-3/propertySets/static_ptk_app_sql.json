@@ -1,0 +1,23 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/164/",
+            "title": "ptk_app_sql"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "nameApp": "db",
+        "ipamApp": "db",
+        "OneFuse_SPS_OS": "ptk_os_windows2016",
+        "tagApp": "SQL Server",
+        "deployNameApp": "SQL"
+    },
+    "id": 164,
+    "name": "ptk_app_sql",
+    "type": "static",
+    "description": "OneFuse Property Toolkit Property Set"
+}

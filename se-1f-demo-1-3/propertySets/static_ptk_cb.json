@@ -1,0 +1,23 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/167/",
+            "title": "ptk_cb"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "disabled_OneFuse_ScriptingPolicy_HostnameOverwrite_1": "onefuse:create_file",
+        "disabled_OneFuse_ScriptingPolicy_PreCreateResource_2": "onefuse:create_file",
+        "disabled_OneFuse_ScriptingPolicy_PreApplication_3": "onefuse:create_file",
+        "disabled_OneFuse_ScriptingPolicy_PostProvision_4": "onefuse:create_file",
+        "environment": "onefuse_test"
+    },
+    "id": 167,
+    "name": "ptk_cb",
+    "type": "static",
+    "description": ""
+}

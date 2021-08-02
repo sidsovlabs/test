@@ -1,0 +1,48 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/258/",
+            "title": "sps_location_sid"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "onefuse_global": {
+            "general": {
+                "nameLocation": "atl",
+                "ipamLocation": "atl"
+            },
+            "property_sets": {},
+            "policies": {}
+        },
+        "onefuse_platforms": {
+            "vra8": {
+                "general": {},
+                "property_sets": {},
+                "policies": {}
+            },
+            "vra7": {
+                "general": {},
+                "property_sets": {},
+                "policies": {}
+            },
+            "cloudbolt_cmp": {
+                "general": {},
+                "property_sets": {},
+                "policies": {}
+            },
+            "terraform": {
+                "general": {},
+                "property_sets": {},
+                "policies": {}
+            }
+        }
+    },
+    "id": 258,
+    "name": "sps_location_sid",
+    "type": "static",
+    "description": ""
+}

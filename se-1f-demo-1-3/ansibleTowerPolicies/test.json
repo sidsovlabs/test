@@ -1,0 +1,27 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/ansibleTowerPolicies/3/",
+            "title": "test"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "endpoint": {
+            "href": "/api/v3/onefuse/endpoints/1/",
+            "title": "ansible37"
+        }
+    },
+    "id": 3,
+    "name": "test",
+    "description": "",
+    "organizationName": "test",
+    "provisioningJobTemplates": "[\n  \"key\",\n  \"obj\": {\n    \"key\": \"val\"\n  }\n]",
+    "deprovisioningJobTemplates": "",
+    "machineCredentialOverride": "",
+    "extraVarsOverride": "",
+    "inventoryName": "",
+    "groups": "",
+    "verifyPromptOnLaunchForLimit": true
+}

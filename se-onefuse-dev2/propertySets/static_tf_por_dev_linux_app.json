@@ -1,0 +1,24 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/4/",
+            "title": "tf_por_dev_linux_app"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "nameApp": "app",
+        "nameDatacenter": "por",
+        "nameDomain": "sovlabs.net",
+        "nameEnv": "dev",
+        "nameLocation": "por",
+        "nameOs": "l"
+    },
+    "id": 4,
+    "name": "tf_por_dev_linux_app",
+    "type": "static",
+    "description": "Terraform development linux app server Portland"
+}

@@ -1,0 +1,36 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/268/",
+            "title": "echo_test_v1_os"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "familyOS": "linux",
+        "nameOS": "l",
+        "OneFuse_VRA7_Props": {
+            "CloneFrom": "CentOS7",
+            "CloneSpec": "Linux",
+            "OneFuse_SPS_Location": "echo_test_v1_location"
+        },
+        "OneFuse_VRA8_Props": {
+            "image": "CentOS7",
+            "imageRef": "CentOS7",
+            "customizationSpec": "Linux"
+        },
+        "OneFuse_TF_Props": {
+            "template": "CentOS7"
+        },
+        "OneFuse_CB_Props": {
+            "os_build": "CentOS 7.2"
+        }
+    },
+    "id": 268,
+    "name": "echo_test_v1_os",
+    "type": "static",
+    "description": ""
+}

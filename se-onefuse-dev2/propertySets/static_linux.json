@@ -1,0 +1,20 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/7/",
+            "title": "linux"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "template": "CentOS7",
+        "nameOs": "l"
+    },
+    "id": 7,
+    "name": "linux",
+    "type": "static",
+    "description": "Terraform linux server"
+}

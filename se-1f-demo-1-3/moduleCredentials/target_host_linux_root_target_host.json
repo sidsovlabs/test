@@ -1,0 +1,18 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/moduleCredentials/11/",
+            "title": "linux_root_target_host"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "id": 11,
+    "name": "linux_root_target_host",
+    "description": "",
+    "username": "root",
+    "endpointType": "target_host",
+    "connectionMethod": "openssh"
+}

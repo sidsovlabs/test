@@ -1,0 +1,20 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/validators/5/",
+            "title": "vRA8_Development"
+        },
+        "endpoint": {
+            "href": "/api/v3/onefuse/endpoints/3/",
+            "title": "vRA8_Development"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "id": 5,
+    "name": "vRA8_Development",
+    "description": "Development vRA8 Validator",
+    "type": "vra8"
+}

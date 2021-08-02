@@ -1,0 +1,47 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/namingSequences/2/",
+            "title": "deploymentSequence"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "name": "deploymentSequence",
+    "id": 2,
+    "namingData": {
+        "tf-dev-linux": "2",
+        "onefusename-machine-vra-prod": "3",
+        "onefusename-machine-vra-dev": "2",
+        "onefuseipam-vra-prod": "2",
+        "onefusedns-vra-prod": "2",
+        "aduser-vra-dev": "2",
+        "ADUSER-VRA-DEV": "3",
+        "19-VRA-DEV": "7",
+        "CLOUDSERVER-VRA-DEV": "8",
+        "CLOUDSERVER-VRA-TEST": "8",
+        "SWITCHINFO-VRA-DEV": "2",
+        "ONEFUSENAME-MACHINE-VRA-DEV": "2",
+        "PHYSICALSERVER-INFO-VRA-DEV": "2",
+        "ONEFUSEIPAM-VRA-DEV": "2",
+        "ROUTERINFO-VRA-PROD": "2",
+        "CLOUDSERVER-VRA-PROD": "2",
+        "S3BUCKET-VRA-DEV": "4",
+        "CLOUDSERVER-SOLARWINDSIPAM-VRA-PROD": "4",
+        "SOLARWINDSANDCMDB-VRA-PROD": "15",
+        "SOLARWINDSANDCMDB-VRA-DEV": "5",
+        "SOLARWINDSANDCMDB-VRA-TEST": "5"
+    },
+    "currentValue": "15",
+    "initialValue": "1",
+    "description": null,
+    "patternFormat": "",
+    "lastValue": "14",
+    "length": 3,
+    "pad": "0",
+    "reuse": false,
+    "type": "BASE10",
+    "uniqueKey": "{{deployNameApp}}-{{deployNameRequestSource}}-{{deployNameEnv}}"
+}

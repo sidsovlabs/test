@@ -1,0 +1,24 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/namingPolicies/6/",
+            "title": "deployment"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "namingSequences": [
+            {
+                "href": "/api/v3/onefuse/namingSequences/1/",
+                "title": "deploymentSequence"
+            }
+        ],
+        "validationPolicies": []
+    },
+    "name": "deployment",
+    "id": 6,
+    "template": "{{deployNameApp}}-{{deployNameRequestSource}}-{{deployNameEnv}}-{{sequence.deploymentSequence}}",
+    "description": "",
+    "dnsSuffix": ""
+}

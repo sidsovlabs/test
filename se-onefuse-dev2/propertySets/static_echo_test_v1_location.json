@@ -1,0 +1,20 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/269/",
+            "title": "echo_test_v1_location"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "nameLocation": "por",
+        "ipamLocation": "por"
+    },
+    "id": 269,
+    "name": "echo_test_v1_location",
+    "type": "static",
+    "description": ""
+}

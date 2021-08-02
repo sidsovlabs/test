@@ -1,0 +1,17 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/144/",
+            "title": "SVL_vSphereTags"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {},
+    "id": 144,
+    "name": "SVL_vSphereTags",
+    "type": "static",
+    "description": "Create by OneFuse vRA Package"
+}

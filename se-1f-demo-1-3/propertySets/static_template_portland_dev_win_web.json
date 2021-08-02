@@ -1,0 +1,24 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/153/",
+            "title": "template_portland_dev_win_web"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "nameDatacenter": "por",
+        "nameEnv": "dev",
+        "nameOs": "w",
+        "nameApp": "web",
+        "nameDomain": "solarwinds45.sovlabs.net",
+        "nameLocation": "por"
+    },
+    "id": 153,
+    "name": "template_portland_dev_win_web",
+    "type": "static",
+    "description": "Development Windows Web Server Portland"
+}

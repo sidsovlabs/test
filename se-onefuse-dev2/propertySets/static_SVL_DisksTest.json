@@ -1,0 +1,21 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/124/",
+            "title": "SVL_DisksTest"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "SovLabs_VM_Disk3-Size": "3",
+        "SovLabs_VM_Disk2-Size": "2",
+        "SovLabs_VM_Disk1-Size": "1"
+    },
+    "id": 124,
+    "name": "SVL_DisksTest",
+    "type": "static",
+    "description": "Create by OneFuse vRA Package"
+}

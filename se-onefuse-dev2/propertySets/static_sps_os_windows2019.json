@@ -1,0 +1,32 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/179/",
+            "title": "sps_os_windows2019"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "familyOS": "windows",
+        "nameOS": "w",
+        "OneFuse_VRA7_Props": {
+            "CloneFrom": "Windows2019",
+            "CloneSpec": "Windows"
+        },
+        "OneFuse_VRA8_Props": {
+            "image": "Windows2019",
+            "imageRef": "Windows2019",
+            "customizationSpec": "Windows"
+        },
+        "OneFuse_CB_Props": {
+            "os_build": "Windows2019"
+        }
+    },
+    "id": 179,
+    "name": "sps_os_windows2019",
+    "type": "static",
+    "description": ""
+}

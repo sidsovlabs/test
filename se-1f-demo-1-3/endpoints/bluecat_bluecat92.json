@@ -1,0 +1,30 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/endpoints/2/",
+            "title": "bluecat92"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "credential": {
+            "href": "/api/v3/onefuse/moduleCredentials/2/",
+            "title": "bluecat"
+        }
+    },
+    "id": 2,
+    "type": "bluecat",
+    "name": "bluecat92",
+    "description": "",
+    "singleThreaded": true,
+    "host": "bluecat92.sovlabs.net",
+    "port": 443,
+    "ssl": true,
+    "bluecatVersion": "9.0",
+    "configurationName": "Configuration 01",
+    "ipAddressRecordUserDefinedFields": null,
+    "dnsView": "bluecat92.sovlabs.net",
+    "deploymentMethod": "SELECTIVE_DEPLOY",
+    "hostRecordUserDefinedFields": null
+}

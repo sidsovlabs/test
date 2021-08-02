@@ -1,0 +1,21 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/58/",
+            "title": "sps_s3region_test"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "s3NameRegion": "uswest1",
+        "region": "us-west-1",
+        "account": "onefuse-sedemo"
+    },
+    "id": 58,
+    "name": "sps_s3region_test",
+    "type": "static",
+    "description": ""
+}

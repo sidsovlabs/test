@@ -1,0 +1,22 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/155/",
+            "title": "template_user"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "firstname": "Bugs",
+        "domain": "sovlabs.net",
+        "username": "bbunny",
+        "lastname": "Bunny"
+    },
+    "id": 155,
+    "name": "template_user",
+    "type": "static",
+    "description": ""
+}

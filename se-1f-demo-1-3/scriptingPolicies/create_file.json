@@ -1,0 +1,26 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/scriptingPolicies/2/",
+            "title": "create_file"
+        },
+        "credential": {
+            "href": "/api/v3/onefuse/moduleCredentials/12/",
+            "title": "vra_svc_target_host"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "name": "create_file",
+    "id": 2,
+    "description": "Creates a file in guest: c:\\Temp\\testing.txt",
+    "targetHost": "psdemo2k19jump.sovlabs.net",
+    "provisionLaunchCommandTemplate": "PowerShell -ExecutionPolicy Bypass -File {{scriptName}}",
+    "provisionScript": "\"Testing {{hook_point}}\" >> C:\\Temp\\testing.txt\n$output = @{\n\t\"file\"=\"C:\\Temp\\testing.txt\"\n\t\"content\"=\"Testing {{hook_point}}\"\n} | ConvertTo-Json | Write-Host",
+    "provisionSuccessExitCodes": "0",
+    "deprovisionScript": "",
+    "deprovisionLaunchCommandTemplate": "",
+    "deprovisionSuccessExitCodes": ""
+}

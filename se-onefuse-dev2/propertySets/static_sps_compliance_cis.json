@@ -1,0 +1,31 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/21/",
+            "title": "sps_compliance_cis"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "OneFuse_VRA7_Props": {
+            "SovLabs_CreateTags_VMW_Compliance": {
+                "name": "CIS",
+                "category": "compliance",
+                "cardinalitySingle": true
+            }
+        },
+        "OneFuse_VRA8_Props": {
+            "OneFuse_CreateTags_Compliance": {
+                "key": "compliance",
+                "value": "CIS"
+            }
+        }
+    },
+    "id": 21,
+    "name": "sps_compliance_cis",
+    "type": "static",
+    "description": "OneFuse Property Toolkit Property Set"
+}

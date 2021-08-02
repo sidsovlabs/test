@@ -1,0 +1,18 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/moduleCredentials/12/",
+            "title": "vra_svc_target_host"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "id": 12,
+    "name": "vra_svc_target_host",
+    "description": "",
+    "username": "vrasvc@sovlabs.net",
+    "endpointType": "target_host",
+    "connectionMethod": "openssh"
+}

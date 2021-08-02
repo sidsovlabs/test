@@ -1,0 +1,22 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/181/",
+            "title": "ptk_group_piedpiper"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "folderGroup": "PiedPiper",
+        "nameGroup": "pp",
+        "ouGroup": "PiedPiper",
+        "s3NameGroup": "piedpiper"
+    },
+    "id": 181,
+    "name": "ptk_group_piedpiper",
+    "type": "static",
+    "description": "OneFuse Property Toolkit Property Set"
+}

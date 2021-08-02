@@ -1,0 +1,25 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/namingSequences/8/",
+            "title": "SimpleSequence"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "name": "SimpleSequence",
+    "id": 8,
+    "namingData": {},
+    "currentValue": "1",
+    "initialValue": "1",
+    "description": "",
+    "patternFormat": "",
+    "lastValue": null,
+    "length": 999,
+    "pad": "0",
+    "reuse": false,
+    "type": "BASE10",
+    "uniqueKey": ""
+}

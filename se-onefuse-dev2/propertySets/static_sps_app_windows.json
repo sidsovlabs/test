@@ -1,0 +1,22 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/29/",
+            "title": "sps_app_windows"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "nameApp": "app",
+        "ipamApp": "app",
+        "OneFuse_SPS_OS": "sps_os_windows2016",
+        "deployNameApp": "WINDOWS"
+    },
+    "id": 29,
+    "name": "sps_app_windows",
+    "type": "static",
+    "description": "OneFuse Property Toolkit Property Set"
+}

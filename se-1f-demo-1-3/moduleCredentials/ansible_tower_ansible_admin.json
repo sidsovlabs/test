@@ -1,0 +1,18 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/moduleCredentials/1/",
+            "title": "ansible_admin"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "id": 1,
+    "name": "ansible_admin",
+    "description": "",
+    "username": "admin",
+    "endpointType": "ansible_tower",
+    "connectionMethod": "basic"
+}

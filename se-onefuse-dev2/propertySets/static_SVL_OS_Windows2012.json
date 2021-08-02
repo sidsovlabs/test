@@ -1,0 +1,24 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/130/",
+            "title": "SVL_OS_Windows2012"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "nameOs": "w",
+        "osFamily": "Windows",
+        "ipamDnsSuffix": "{{SovLabs_AD_Domain}}",
+        "drsConfigName": "windows",
+        "osName": "Windows 2012",
+        "tagOs": "Windows2012"
+    },
+    "id": 130,
+    "name": "SVL_OS_Windows2012",
+    "type": "static",
+    "description": "Create by OneFuse vRA Package"
+}

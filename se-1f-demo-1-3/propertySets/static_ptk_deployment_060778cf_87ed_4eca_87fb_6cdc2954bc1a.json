@@ -1,0 +1,52 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/206/",
+            "title": "ptk_deployment_060778cf_87ed_4eca_87fb_6cdc2954bc1a"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "nameEnv": "d",
+        "dnsPolicy": "dev",
+        "customizationSpec": "Windows",
+        "OneFuse_SPS_OS": "ptk_os_windows2019",
+        "OneFuse_SPS_GlobalProperties": "ptk_globalproperties",
+        "nameLocation": "atl",
+        "ipamEnv": "dev",
+        "nameGroup": "pp",
+        "nameOS": "w",
+        "s3NameEnv": "development",
+        "ipamApp": "app",
+        "OneFuse_SPS_Group": "ptk_group_piedpiper",
+        "OneFuse_SPS_App": "ptk_app_windows",
+        "ouGroup": "PiedPiper",
+        "image": "Windows2019",
+        "resourceGroupName": "VRM-BACKUPEXCLUDED/demo//DEV",
+        "OneFuse_SPS_Location": "ptk_location_por",
+        "ipamLocation": "atl",
+        "adPolicy": "dev",
+        "familyOS": "windows",
+        "deployNameApp": "WINDOWS",
+        "OneFuse_SPS_Env": "ptk_env_dev",
+        "folderEnv": "DEV",
+        "nameApp": "app",
+        "ouEnv": "DEV",
+        "dnsSuffix": "bluecat92.sovlabs.net",
+        "folderGroup": "PiedPiper",
+        "location": "por",
+        "folderName": "VRM-BACKUPEXCLUDED/demo/PiedPiper/DEV",
+        "imageRef": "Windows2019",
+        "s3NameGroup": "piedpiper",
+        "sgEnv": "dev",
+        "OneFuse_ProjectName": "Pied Piper",
+        "deployNameEnv": "Dev"
+    },
+    "id": 206,
+    "name": "ptk_deployment_060778cf_87ed_4eca_87fb_6cdc2954bc1a",
+    "type": "static",
+    "description": "Create by OneFuse vRA Package"
+}

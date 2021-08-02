@@ -1,0 +1,19 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/212/",
+            "title": "template_vm_tagging"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "onefuse_tags": "{\"Environment\": \"Test\",\"Owner\": \"mbombard\",\"Application\":\"Apache\"}"
+    },
+    "id": 212,
+    "name": "template_vm_tagging",
+    "type": "static",
+    "description": ""
+}

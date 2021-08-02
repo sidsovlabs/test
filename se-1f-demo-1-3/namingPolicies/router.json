@@ -1,0 +1,29 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/namingPolicies/9/",
+            "title": "router"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "namingSequences": [
+            {
+                "href": "/api/v3/onefuse/namingSequences/4/",
+                "title": "routerSequence"
+            }
+        ],
+        "validationPolicies": [
+            {
+                "href": "/api/v3/onefuse/validators/1/",
+                "title": "DNS_Production"
+            }
+        ]
+    },
+    "name": "router",
+    "id": 9,
+    "template": "rtr-{{nameLocation}}{{nameEnv}}-{{sequence.routerSequence}}",
+    "description": "",
+    "dnsSuffix": "{{dnsSuffix}}"
+}

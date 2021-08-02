@@ -1,0 +1,29 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/namingSequences/11/",
+            "title": "alg_sequence"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "name": "alg_sequence",
+    "id": 11,
+    "namingData": {
+        "aglpItsmsq": "2",
+        "ngldItsmsq": "2",
+        "ngld-ITSSQL": "2"
+    },
+    "currentValue": "2",
+    "initialValue": "1",
+    "description": "",
+    "patternFormat": "",
+    "lastValue": "1",
+    "length": 2,
+    "pad": "0",
+    "reuse": false,
+    "type": "BASE10",
+    "uniqueKey": "{{nameRegion[0:1] | lower}}{{nameDatacenter[0:2] | lower}}{{nameEnv[0:1] | lower}}-{{ag_services}}{{nameRole}}"
+}

@@ -1,0 +1,29 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/namingPolicies/5/",
+            "title": "switch"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "namingSequences": [
+            {
+                "href": "/api/v3/onefuse/namingSequences/3/",
+                "title": "switchSequence"
+            }
+        ],
+        "validationPolicies": [
+            {
+                "href": "/api/v3/onefuse/validators/1/",
+                "title": "DNS_Production"
+            }
+        ]
+    },
+    "name": "switch",
+    "id": 5,
+    "template": "sw-{{nameLocation}}{{nameEnv}}-{{sequence.switchSequence}}",
+    "description": "",
+    "dnsSuffix": "{{dnsSuffix}}"
+}

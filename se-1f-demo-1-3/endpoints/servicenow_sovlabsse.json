@@ -1,0 +1,22 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/endpoints/10/",
+            "title": "sovlabsse"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "credential": {
+            "href": "/api/v3/onefuse/moduleCredentials/9/",
+            "title": "snow_demo"
+        }
+    },
+    "id": 10,
+    "type": "servicenow",
+    "name": "sovlabsse",
+    "description": "",
+    "version": "New York",
+    "instance": "https://sovlabsse.service-now.com"
+}

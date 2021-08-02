@@ -1,0 +1,28 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/205/",
+            "title": "ptk_cmdb_props"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "cmdbName": "{{ OneFuse_VmNic0.hostname }}",
+        "cmdbDnsSuffix": "{{ OneFuse_VmNic0.dnsSuffix }}",
+        "cmdbHostname": "{{ OneFuse_VmNic0.hostname }}",
+        "cmdbFqdn": "{{ OneFuse_VmNic0.fqdn }}",
+        "cmdbIpAddress": "{{ OneFuse_VmNic0.ipAddress }}",
+        "cmdbUuid": "{{ OneFuse_VmHardware.platformUuid }}",
+        "cmdbCpuCount": "{{ OneFuse_VmHardware.cpuCount }}",
+        "cmdbStorageGb": "{{ OneFuse_VmHardware.totalStorageGB }}",
+        "cmdbMemoryGb": "{{ OneFuse_VmHardware.memoryMB }}",
+        "cmdbPowerState": "{{ OneFuse_VmHardware.powerState }}"
+    },
+    "id": 205,
+    "name": "ptk_cmdb_props",
+    "type": "static",
+    "description": ""
+}

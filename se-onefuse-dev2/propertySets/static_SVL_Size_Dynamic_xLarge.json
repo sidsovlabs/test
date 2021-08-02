@@ -1,0 +1,21 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/138/",
+            "title": "SVL_Size_Dynamic_xLarge"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "SovLabs_Mem_Multiplier": "16",
+        "SovLabs_CPU_Multiplier": "12",
+        "SVL_Size_Dynamic_Env": "{% if SVL_Env == 'SVL_Env_Prod' %}SVL_Size_Dynamic_Env_Prod{% else %}SVL_Size_Dynamic_Env_Dev{% endif %}"
+    },
+    "id": 138,
+    "name": "SVL_Size_Dynamic_xLarge",
+    "type": "static",
+    "description": "Create by OneFuse vRA Package"
+}

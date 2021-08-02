@@ -1,0 +1,26 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/scriptingPolicies/3/",
+            "title": "windows_install_iis"
+        },
+        "credential": {
+            "href": "/api/v3/onefuse/moduleCredentials/8/",
+            "title": "vra_svc_target_host"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "name": "windows_install_iis",
+    "id": 3,
+    "description": "Install IIS on Windows",
+    "targetHost": "{{OneFuse_VmNic0.fqdn}}",
+    "provisionLaunchCommandTemplate": "powershell -ExecutionPolicy Bypass -File {{ scriptName }}",
+    "provisionScript": "Install-WindowsFeature -name Web-Server -IncludeManagementTools",
+    "provisionSuccessExitCodes": "0",
+    "deprovisionScript": "",
+    "deprovisionLaunchCommandTemplate": "",
+    "deprovisionSuccessExitCodes": ""
+}

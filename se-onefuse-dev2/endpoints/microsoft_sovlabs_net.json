@@ -1,0 +1,29 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/endpoints/8/",
+            "title": "sovlabs_net"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "credential": {
+            "href": "/api/v3/onefuse/moduleCredentials/5/",
+            "title": "ad_vrasvc_sovlabs_net"
+        }
+    },
+    "id": 8,
+    "type": "microsoft",
+    "name": "sovlabs_net",
+    "description": "Prod AD Endpoint",
+    "singleThreaded": true,
+    "host": "sovlabs.net",
+    "port": 22,
+    "ssl": true,
+    "jumpHost": "psdemo2k19jump.sovlabs.net",
+    "jumpPort": 22,
+    "microsoftVersion": "2019",
+    "temporaryDirectoryForScripts": "C:\\Windows\\temp",
+    "sharePathForTemporaryDirectory": ""
+}

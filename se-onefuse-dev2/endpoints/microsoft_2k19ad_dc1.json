@@ -1,0 +1,29 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/endpoints/7/",
+            "title": "2k19ad_dc1"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "credential": {
+            "href": "/api/v3/onefuse/moduleCredentials/4/",
+            "title": "ad_vrasvc_2k19ad"
+        }
+    },
+    "id": 7,
+    "type": "microsoft",
+    "name": "2k19ad_dc1",
+    "description": "Test and Dev AD endpoint",
+    "singleThreaded": true,
+    "host": "2k19ad-dc1.2k19ad.sovlabs.net",
+    "port": 22,
+    "ssl": true,
+    "jumpHost": null,
+    "jumpPort": null,
+    "microsoftVersion": "2019",
+    "temporaryDirectoryForScripts": "C:\\Windows\\temp",
+    "sharePathForTemporaryDirectory": ""
+}

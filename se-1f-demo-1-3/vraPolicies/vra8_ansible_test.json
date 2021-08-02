@@ -1,0 +1,26 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/vraPolicies/3/",
+            "title": "ansible_test"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "endpoint": {
+            "href": "/api/v3/onefuse/endpoints/15/",
+            "title": "vra84"
+        }
+    },
+    "id": 3,
+    "type": "vra8",
+    "name": "ansible_test",
+    "cloudTemplateName": "ansible_test",
+    "cloudTemplateVersionNumber": "1",
+    "cloudTemplateInputs": "{\n    \"default_inputs\":{\n        \"env\":\"{{env}}\",\n        \"app\":\"{{app}}\",\n        \"size\":\"{{size}}\",\n        \"location\":\"{{location}}\"\n    }\n}",
+    "projectName": "Pied Piper",
+    "description": null,
+    "blueprintId": null,
+    "userMapping": null
+}

@@ -1,0 +1,31 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/156/",
+            "title": "ptk_all_modules"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "OneFuse_NamingPolicy": "onefuse:machine",
+        "OneFuse_IpamPolicy_Nic0": "onefuse:{{ipamLocation}}{{ipamEnv}}",
+        "OneFuse_DnsPolicy_Nic0": "onefuse:{{dnsPolicy}}:{{OneFuse_Ipam_Nic0.dnsSuffix | default('{{OneFuse_Ipam_Nic0.dnsSuffix}}') }}",
+        "OneFuse_ADPolicy": "onefuse:{{adPolicy}}",
+        "OneFuse_ServiceNowCmdbPolicy": "onefuse:{{familyOS}}",
+        "OneFuse_CreateProperties_Domain": {
+            "key": "domain",
+            "value": "{% if OneFuse_AD %}{% set splits = OneFuse_AD.finalOu.split(',') | required('OneFuse_AD not found') %}{% set inc = 1 %}{% for split in splits if split[:3] == 'DC=' %}{{split[3:]}}{% if loop.last == False  %}.{% endif %}{% endfor %}{% endif%}"
+        },
+        "OneFuse_CreateProperties_Compliance": {
+            "key": "OneFuse_SPS_Compliance",
+            "value": "{% if compliance %}ptk_compliance_{{compliance}}{% endif %}"
+        }
+    },
+    "id": 156,
+    "name": "ptk_all_modules",
+    "type": "static",
+    "description": ""
+}

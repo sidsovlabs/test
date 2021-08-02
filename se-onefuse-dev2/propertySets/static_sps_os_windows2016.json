@@ -1,0 +1,32 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/33/",
+            "title": "sps_os_windows2016"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "familyOS": "windows",
+        "nameOS": "w",
+        "OneFuse_VRA7_Props": {
+            "CloneFrom": "Windows2016",
+            "CloneSpec": "Windows"
+        },
+        "OneFuse_VRA8_Props": {
+            "image": "Windows2016",
+            "imageRef": "Windows2016",
+            "customizationSpec": "Windows"
+        },
+        "OneFuse_CB_Props": {
+            "os_build": "Windows Server 2016 Standard"
+        }
+    },
+    "id": 33,
+    "name": "sps_os_windows2016",
+    "type": "static",
+    "description": "OneFuse Property Toolkit Property Set"
+}

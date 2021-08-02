@@ -1,0 +1,25 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/162/",
+            "title": "ptk_app_nginx"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "nameApp": "lb",
+        "ipamApp": "lb",
+        "image": "nginx:latest",
+        "internal_port": "80",
+        "nameOS": "l",
+        "tagApp": "Nginx",
+        "port_use": "5"
+    },
+    "id": 162,
+    "name": "ptk_app_nginx",
+    "type": "static",
+    "description": ""
+}

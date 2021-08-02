@@ -1,0 +1,22 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/endpoints/16/",
+            "title": "dev89172"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "credential": {
+            "href": "/api/v3/onefuse/moduleCredentials/17/",
+            "title": "snow89172"
+        }
+    },
+    "id": 16,
+    "type": "servicenow",
+    "name": "dev89172",
+    "description": "",
+    "version": "New York",
+    "instance": "https://dev89172.service-now.com"
+}

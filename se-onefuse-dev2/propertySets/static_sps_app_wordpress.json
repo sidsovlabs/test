@@ -1,0 +1,22 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/32/",
+            "title": "sps_app_wordpress"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "nameApp": "web",
+        "ipamApp": "web",
+        "OneFuse_SPS_OS": "sps_os_centos7",
+        "deployNameApp": "WORDPRESS"
+    },
+    "id": 32,
+    "name": "sps_app_wordpress",
+    "type": "static",
+    "description": "OneFuse Property Toolkit Property Set"
+}

@@ -1,0 +1,24 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/namingPolicies/4/",
+            "title": "Dev_Machine_Naming"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "namingSequences": [
+            {
+                "href": "/api/v3/onefuse/namingSequences/1/",
+                "title": "machineSequence"
+            }
+        ],
+        "validationPolicies": []
+    },
+    "name": "Dev_Machine_Naming",
+    "id": 4,
+    "template": "{{nameLocation | required}}{{nameEnv | required}}{{nameOS | required}}{{nameApp | required}}{{sequence.machineSequence}}",
+    "description": "",
+    "dnsSuffix": "sovlabs.net"
+}

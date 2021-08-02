@@ -1,0 +1,19 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/264/",
+            "title": "sps_test_sid"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "test": "value"
+    },
+    "id": 264,
+    "name": "sps_test_sid",
+    "type": "static",
+    "description": ""
+}

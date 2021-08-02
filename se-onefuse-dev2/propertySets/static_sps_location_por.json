@@ -1,0 +1,20 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/25/",
+            "title": "sps_location_por"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "nameLocation": "atl",
+        "ipamLocation": "atl"
+    },
+    "id": 25,
+    "name": "sps_location_por",
+    "type": "static",
+    "description": "OneFuse Property Toolkit Property Set"
+}

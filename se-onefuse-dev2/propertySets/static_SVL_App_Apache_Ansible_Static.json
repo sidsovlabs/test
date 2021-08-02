@@ -1,0 +1,29 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/111/",
+            "title": "SVL_App_Apache_Ansible_Static"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        " SovLabs_AnsibleTowerProfile": "apacheStaticProfile",
+        "customScript": "{% if customScriptInput != '' and customScriptInput %}{{ customScriptInput  }}{% else %}if [ ! -d \"/tmp\" ]; then mkdir /tmp; fi; if [ ! -d \"/tmp/noscript\" ]; then mkdir /tmp/noscript; fi; echo No custom script was entered. > /tmp/noscript/noscript.txt;{% endif %}",
+        "folderApp": "Apache",
+        "nameApp": "web",
+        "SovLabs_App_Mem": "512",
+        "ipamTier": "web",
+        "SVL_OS_CentOS7": "SVL_OS_CentOS7",
+        "SovLabs_App_CPU": "1",
+        "f5NameApp": "ap",
+        "deployNameApp": "Apache",
+        "tagApp": "Apache"
+    },
+    "id": 111,
+    "name": "SVL_App_Apache_Ansible_Static",
+    "type": "static",
+    "description": "Static Ansible Tower Install"
+}

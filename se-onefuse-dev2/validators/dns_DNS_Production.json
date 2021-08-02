@@ -1,0 +1,20 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/validators/1/",
+            "title": "DNS_Production"
+        },
+        "endpoint": {
+            "href": "/api/v3/onefuse/endpoints/1/",
+            "title": "sovlabs_net"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "id": 1,
+    "name": "DNS_Production",
+    "description": "Production DNS Validator",
+    "type": "dns"
+}

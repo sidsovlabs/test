@@ -1,0 +1,31 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/namingSequences/5/",
+            "title": "s3Sequence"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "name": "s3Sequence",
+    "id": 5,
+    "namingData": {
+        "piedpiper-development": "21",
+        "testblueprints-development": "7",
+        "testblueprints-test": "3",
+        "testblueprints-production": "2",
+        "piedpiper-test": "2"
+    },
+    "currentValue": "2",
+    "initialValue": "1",
+    "description": "Amazon S3 Bucket Naming Sequence",
+    "patternFormat": "",
+    "lastValue": "1",
+    "length": 10,
+    "pad": "0",
+    "reuse": false,
+    "type": "BASE10",
+    "uniqueKey": "{{s3NameGroup}}-{{s3NameEnv}}"
+}

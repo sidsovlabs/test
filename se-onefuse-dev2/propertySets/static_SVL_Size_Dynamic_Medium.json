@@ -1,0 +1,21 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/135/",
+            "title": "SVL_Size_Dynamic_Medium"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "SovLabs_Mem_Multiplier": "4",
+        "SovLabs_CPU_Multiplier": "2",
+        "SVL_Size_Dynamic_Env": "{% if SVL_Env == 'SVL_Env_Prod' %}SVL_Size_Dynamic_Env_Prod{% else %}SVL_Size_Dynamic_Env_Dev{% endif %}"
+    },
+    "id": 135,
+    "name": "SVL_Size_Dynamic_Medium",
+    "type": "static",
+    "description": "Create by OneFuse vRA Package"
+}

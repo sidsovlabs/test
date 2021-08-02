@@ -1,0 +1,26 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/vraPolicies/1/",
+            "title": "LinuxTest"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "endpoint": {
+            "href": "/api/v3/onefuse/endpoints/15/",
+            "title": "vra84"
+        }
+    },
+    "id": 1,
+    "type": "vra8",
+    "name": "LinuxTest",
+    "cloudTemplateName": "Linux Test",
+    "cloudTemplateVersionNumber": "1",
+    "cloudTemplateInputs": "{\n\"size\": \"small\",\n\"image\":\"CentOS7\"\n}",
+    "description": null,
+    "blueprintId": null,
+    "projectName": null,
+    "userMapping": "{{ deploymentOwner | required }}"
+}

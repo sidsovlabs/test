@@ -1,0 +1,31 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/dnsPolicies/12/",
+            "title": "F5_VIP"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "endpoint": {
+            "href": "/api/v3/onefuse/endpoints/5/",
+            "title": "infoblox851_endpoint"
+        }
+    },
+    "id": 12,
+    "type": "infoblox",
+    "name": "F5_VIP",
+    "description": null,
+    "createARecord": false,
+    "preValidateARecord": true,
+    "postValidateARecord": true,
+    "createPtrRecord": false,
+    "preValidatePtrRecord": true,
+    "postValidatePtrRecord": true,
+    "postValidationSleepSeconds": "5",
+    "validationTimeoutSeconds": "600",
+    "hostnameOverride": null,
+    "createHostRecord": true,
+    "removeFixedAddressRecord": true
+}

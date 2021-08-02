@@ -1,0 +1,39 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/34/",
+            "title": "sps_os_centos7"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "Global_Props": {
+            "familyOS": "linux",
+            "nameOS": "l"
+        },
+        "familyOS": "linux",
+        "nameOS": "l",
+        "OneFuse_VRA7_Props": {
+            "CloneFrom": "CentOS7",
+            "CloneSpec": "Linux"
+        },
+        "OneFuse_VRA8_Props": {
+            "image": "CentOS7",
+            "imageRef": "CentOS7",
+            "customizationSpec": "Linux"
+        },
+        "OneFuse_TF_Props": {
+            "template": "CentOS7"
+        },
+        "OneFuse_CB_Props": {
+            "os_build": "CentOS 7.2"
+        }
+    },
+    "id": 34,
+    "name": "sps_os_centos7",
+    "type": "static",
+    "description": "OneFuse Property Toolkit Property Set"
+}

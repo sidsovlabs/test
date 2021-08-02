@@ -1,0 +1,19 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/200/",
+            "title": "ptk_tags_aws"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "required_tags": "{Owner: 'Sid', Env: 'Prod', Group: 'IT', App: 'Linux'}"
+    },
+    "id": 200,
+    "name": "ptk_tags_aws",
+    "type": "static",
+    "description": ""
+}

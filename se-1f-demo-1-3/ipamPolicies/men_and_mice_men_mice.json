@@ -1,0 +1,40 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/ipamPolicies/16/",
+            "title": "men_mice"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "endpoint": {
+            "href": "/api/v3/onefuse/endpoints/7/",
+            "title": "mmsuite93"
+        }
+    },
+    "id": 16,
+    "type": "men_and_mice",
+    "name": "men_mice",
+    "hostnameOverride": "{{ request.hostname }}",
+    "primaryDns": "10.30.0.11",
+    "secondaryDns": "10.30.0.11",
+    "dnsSuffix": "menandmice93.sovlabs.net",
+    "dnsSearchSuffixes": "menandmice93.sovlabs.net,sovlabs.net",
+    "description": null,
+    "nicLabel": null,
+    "subnets": [
+        {
+            "subnet": "10.30.39.0/24",
+            "gateway": "10.30.39.1",
+            "network": "dvs_SovLabs_339_10.30.39.0_24",
+            "netmask": ""
+        },
+        {
+            "subnet": "10.30.58.0/24",
+            "gateway": "10.30.58.1",
+            "network": "dvs_SovLabs_358_10.30.58.0_24",
+            "netmask": ""
+        }
+    ]
+}

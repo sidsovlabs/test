@@ -1,0 +1,26 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/endpoints/15/",
+            "title": "vra84"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "credential": {
+            "href": "/api/v3/onefuse/moduleCredentials/14/",
+            "title": "vrasvc_vra8"
+        }
+    },
+    "id": 15,
+    "type": "vra8",
+    "name": "vra84",
+    "description": "",
+    "singleThreaded": true,
+    "host": "vra84demo.sovlabs.net",
+    "port": 443,
+    "ssl": true,
+    "vraVersion": "8.3",
+    "vraOrganizationName": "vidm84"
+}

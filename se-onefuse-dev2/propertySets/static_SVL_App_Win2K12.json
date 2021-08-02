@@ -1,0 +1,25 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/119/",
+            "title": "SVL_App_Win2K12"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "folderApp": "Windows",
+        "nameApp": "app",
+        "ipamTier": "app",
+        "SVL_OS_Windows2012": "SVL_OS_Windows2012",
+        "ouApp": "Windows 2012",
+        "deployNameApp": "WIN2012",
+        "tagApp": "Windows2012"
+    },
+    "id": 119,
+    "name": "SVL_App_Win2K12",
+    "type": "static",
+    "description": "Create by OneFuse vRA Package"
+}

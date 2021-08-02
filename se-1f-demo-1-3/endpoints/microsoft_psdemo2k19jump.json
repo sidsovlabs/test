@@ -1,0 +1,29 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/endpoints/19/",
+            "title": "psdemo2k19jump"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "credential": {
+            "href": "/api/v3/onefuse/moduleCredentials/8/",
+            "title": "ad_vrasvc_sovlabs_net"
+        }
+    },
+    "id": 19,
+    "type": "microsoft",
+    "name": "psdemo2k19jump",
+    "description": "",
+    "singleThreaded": true,
+    "host": "psdemo2k19jump.sovlabs.net",
+    "port": 22,
+    "ssl": true,
+    "jumpHost": null,
+    "jumpPort": null,
+    "microsoftVersion": "2019",
+    "temporaryDirectoryForScripts": "C:\\temp",
+    "sharePathForTemporaryDirectory": ""
+}

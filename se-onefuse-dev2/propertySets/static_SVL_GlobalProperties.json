@@ -1,0 +1,24 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/127/",
+            "title": "SVL_GlobalProperties"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "SovLabs_vRADeployment_NamingStandard": "deploymentNaming",
+        "folderTenant": "demo-008",
+        "namePlatform": "vra",
+        "tagTenant": "demo-008",
+        "Extensibility.Lifecycle.Properties.VMPSMasterWorkflow32.SovLabs_Tenant": "demo-008",
+        "SovLabs_IPAMSkipInUseIPs": "true"
+    },
+    "id": 127,
+    "name": "SVL_GlobalProperties",
+    "type": "static",
+    "description": "Create by OneFuse vRA Package"
+}

@@ -1,0 +1,31 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/174/",
+            "title": "ptk_env_prod"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "nameEnv": "p",
+        "folderEnv": "PROD",
+        "ipamEnv": "prod",
+        "ouEnv": "PRD",
+        "sgEnv": "prod",
+        "dnsPolicy": "prod",
+        "adPolicy": "prod",
+        "location": "atl",
+        "dnsSuffix": "infoblox851.sovlabs.net",
+        "deployNameEnv": "Prod",
+        "s3NameEnv": "production",
+        "vSphere_Cluster": "Cluster1",
+        "tagEnv": "Production"
+    },
+    "id": 174,
+    "name": "ptk_env_prod",
+    "type": "static",
+    "description": "OneFuse Property Toolkit Property Set"
+}

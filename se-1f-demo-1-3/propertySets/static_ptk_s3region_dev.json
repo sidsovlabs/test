@@ -1,0 +1,21 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/193/",
+            "title": "ptk_s3region_dev"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "s3NameRegion": "useast1",
+        "region": "us-east-1",
+        "account": "onefuse-sedemo"
+    },
+    "id": 193,
+    "name": "ptk_s3region_dev",
+    "type": "static",
+    "description": ""
+}

@@ -1,0 +1,18 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/moduleCredentials/16/",
+            "title": "administrator_target_host"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "id": 16,
+    "name": "administrator_target_host",
+    "description": "Administrator for Windows Builds",
+    "username": "Administrator",
+    "endpointType": "target_host",
+    "connectionMethod": "openssh"
+}

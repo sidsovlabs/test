@@ -1,0 +1,22 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/servicenowCMDBPolicies/4/",
+            "title": "snow_cmdb_vra_custom_resource"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "endpoint": {
+            "href": "/api/v3/onefuse/endpoints/10/",
+            "title": "sovlabsse"
+        }
+    },
+    "name": "snow_cmdb_vra_custom_resource",
+    "id": 4,
+    "description": "",
+    "provisionTemplate": "{\n  \"items\": [\n    {\n      \"className\": \"cmdb_ci_win_server\",\n\t\t\t\"values\": {\n        \"discovery_source\": \"Manual Entry\",\n        \"name\": \"{{ name }}\",\n        \"owner\": \"{{ owner }}\",\n        \"comments\": \"{{ comments }}\",\n        \"hardware_status\": \"installed\"\n      }\n    }\n  ]\n}\n",
+    "updateTemplate": "{\n  \"items\": [\n    {\n      \"className\": \"cmdb_ci_win_server\",\n\t\t\t\"values\": {\n        \"discovery_source\": \"Manual Entry\",\n        \"name\": \"{{ name }}\",\n        \"owner\": \"{{ owner }}\",\n        \"comments\": \"{{ comments }}\",\n        \"hardware_status\": \"in_maintenance\"\n      }\n    }\n  ]\n}\n",
+    "deprovisionTemplate": "{\n  \"items\": [\n    {\n      \"className\": \"cmdb_ci_win_server\",\n\t\t\t\"values\": {\n        \"discovery_source\": \"Manual Entry\",\n        \"name\": \"{{ name }}\",\n        \"owner\": \"{{ owner }}\",\n        \"comments\": \"{{ comments }}\",\n        \"hardware_status\": \"retired\"\n      }\n    }\n  ]\n}\n"
+}

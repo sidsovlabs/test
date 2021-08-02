@@ -1,0 +1,22 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/31/",
+            "title": "sps_app_sql"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "nameApp": "db",
+        "ipamApp": "db",
+        "OneFuse_SPS_OS": "sps_os_windows2016",
+        "deployNameApp": "SQL"
+    },
+    "id": 31,
+    "name": "sps_app_sql",
+    "type": "static",
+    "description": "OneFuse Property Toolkit Property Set"
+}

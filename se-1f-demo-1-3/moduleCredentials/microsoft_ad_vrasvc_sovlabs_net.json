@@ -1,0 +1,18 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/moduleCredentials/8/",
+            "title": "ad_vrasvc_sovlabs_net"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "id": 8,
+    "name": "ad_vrasvc_sovlabs_net",
+    "description": "",
+    "username": "vrasvc@sovlabs.net",
+    "endpointType": "microsoft",
+    "connectionMethod": "openssh"
+}

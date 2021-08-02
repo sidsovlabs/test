@@ -1,0 +1,59 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/262/",
+            "title": "sps_size_sid"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "onefuse_global": {
+            "general": {
+                "memoryGB": "1",
+                "cpuCount": "1"
+            },
+            "property_sets": {},
+            "policies": {}
+        },
+        "onefuse_platforms": {
+            "vra8": {
+                "general": {
+                    "flavor": "medium"
+                },
+                "property_sets": {},
+                "policies": {}
+            },
+            "vra7": {
+                "general": {
+                    "VirtualMachine.CPU.Count": "{{cpuCount}}",
+                    "VirtualMachine.Memory.Size": "{{1024 * memoryGB | int}}"
+                },
+                "property_sets": {},
+                "policies": {}
+            },
+            "cloudbolt_cmp": {
+                "general": {
+                    "cpu_cnt": "{{cpuCount}}",
+                    "mem_size": "{{memoryGB}}"
+                },
+                "property_sets": {},
+                "policies": {}
+            },
+            "terraform": {
+                "general": {
+                    "cpu": "{{cpuCount}}",
+                    "memMb": "{{1024 * memoryGB | int}}"
+                },
+                "property_sets": {},
+                "policies": {}
+            }
+        }
+    },
+    "id": 262,
+    "name": "sps_size_sid",
+    "type": "static",
+    "description": ""
+}

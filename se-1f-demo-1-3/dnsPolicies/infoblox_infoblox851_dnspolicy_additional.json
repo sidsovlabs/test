@@ -1,0 +1,31 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/dnsPolicies/5/",
+            "title": "infoblox851_dnspolicy_additional"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "endpoint": {
+            "href": "/api/v3/onefuse/endpoints/5/",
+            "title": "infoblox851_endpoint"
+        }
+    },
+    "id": 5,
+    "type": "infoblox",
+    "name": "infoblox851_dnspolicy_additional",
+    "createARecord": true,
+    "preValidateARecord": true,
+    "postValidateARecord": true,
+    "createPtrRecord": false,
+    "preValidatePtrRecord": false,
+    "postValidatePtrRecord": false,
+    "postValidationSleepSeconds": "5",
+    "validationTimeoutSeconds": "600",
+    "description": null,
+    "hostnameOverride": null,
+    "createHostRecord": false,
+    "removeFixedAddressRecord": false
+}

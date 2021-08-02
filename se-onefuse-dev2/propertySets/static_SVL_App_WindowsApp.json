@@ -1,0 +1,27 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/121/",
+            "title": "SVL_App_WindowsApp"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "customScript": "{% if customScriptInput != '' and customScriptInput %}{{ customScriptInput }}{% endif %}",
+        "folderApp": "Windows",
+        "nameApp": "app",
+        "SovLabs_App_Mem": "1024",
+        "ipamTier": "app",
+        "SovLabs_App_CPU": "1",
+        "ouApp": "{{osName}}",
+        "deployNameApp": "WIN",
+        "tagApp": "Windows2016"
+    },
+    "id": 121,
+    "name": "SVL_App_WindowsApp",
+    "type": "static",
+    "description": "Create by OneFuse vRA Package"
+}

@@ -1,0 +1,31 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/118/",
+            "title": "SVL_App_Sql"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "folderApp": "SQL Server",
+        "SovLabs_App_CPU": "1",
+        "ouApp": "{{osName}}",
+        "SovLabs_VM_Disk2-Size": "5",
+        "deployNameApp": "SQL",
+        "customScript": "{% if customScriptInput != '' and customScriptInput %}{{ customScriptInput }}{% endif %}",
+        "nameApp": "db",
+        "SovLabs_App_Mem": "2048",
+        "ipamTier": "db",
+        "SovLabs_VM_Disk1-Size": "5",
+        "SVL_OS": "SVL_OS_Windows2016",
+        "SovLabs_VM_Disk3-Size": "5",
+        "tagApp": "SQL Server"
+    },
+    "id": 118,
+    "name": "SVL_App_Sql",
+    "type": "static",
+    "description": "Create by OneFuse vRA Package"
+}

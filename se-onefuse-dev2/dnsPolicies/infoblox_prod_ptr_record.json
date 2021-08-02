@@ -1,0 +1,31 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/dnsPolicies/8/",
+            "title": "prod_ptr_record"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "endpoint": {
+            "href": "/api/v3/onefuse/endpoints/6/",
+            "title": "infoblox851_endpoint"
+        }
+    },
+    "id": 8,
+    "type": "infoblox",
+    "name": "prod_ptr_record",
+    "description": "Production Create PTR Record Only",
+    "createARecord": false,
+    "preValidateARecord": false,
+    "postValidateARecord": false,
+    "createPtrRecord": true,
+    "preValidatePtrRecord": true,
+    "postValidatePtrRecord": true,
+    "postValidationSleepSeconds": "5",
+    "validationTimeoutSeconds": "600",
+    "hostnameOverride": null,
+    "createHostRecord": false,
+    "removeFixedAddressRecord": false
+}

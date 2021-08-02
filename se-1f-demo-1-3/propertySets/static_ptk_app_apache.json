@@ -1,0 +1,34 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/158/",
+            "title": "ptk_app_apache"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "nameApp": "ap",
+        "ipamApp": "web",
+        "OneFuse_SPS_OS": "ptk_os_centos7",
+        "deployNameApp": "APACHE",
+        "tagApp": "Apache",
+        "OneFuse_VRA7_Props": {
+            "OneFuse_ScriptingPolicy_Trigger": "true",
+            "OneFuse_ScriptingPolicy_ProvisionedPreLate_apache": "onefuse:linux_install_apache"
+        },
+        "OneFuse_VRA8_Props": {
+            "OneFuse_ScriptingPolicy_Trigger": "true",
+            "OneFuse_ScriptingPolicy_ComputeProvisionPostLate_apache": "onefuse:linux_install_apache"
+        },
+        "OneFuse_CB_Props": {
+            "OneFuse_ScriptingPolicy_PostProvision_apache": "onefuse:linux_install_apache"
+        }
+    },
+    "id": 158,
+    "name": "ptk_app_apache",
+    "type": "static",
+    "description": ""
+}

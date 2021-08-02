@@ -1,0 +1,24 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/128/",
+            "title": "SVL_OS_CentOS7"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "nameOs": "l",
+        "osFamily": "Linux",
+        "ipamDnsSuffix": "{% if SVL_Env == 'SVL_Env_Dev' %}bluecat90.sovlabs.net{% else %}infoblox824.sovlabs.net{% endif %}",
+        "drsConfigName": "linux",
+        "osName": "CentOS 7",
+        "tagOs": "CentOS7"
+    },
+    "id": 128,
+    "name": "SVL_OS_CentOS7",
+    "type": "static",
+    "description": "Create by OneFuse vRA Package"
+}

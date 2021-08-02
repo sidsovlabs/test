@@ -1,0 +1,41 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/38/",
+            "title": "Dot_Notation_Example"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "env": {
+            "name": "d",
+            "folder": "DEV",
+            "ipam": "dev",
+            "ou": "DEV",
+            "sg": "dev"
+        },
+        "location": {
+            "name": "atl",
+            "ipam": "atl"
+        },
+        "os": {
+            "family": "linux",
+            "name": "l"
+        },
+        "group": {
+            "folder": "PiedPiper",
+            "name": "pp",
+            "ou": "PiedPiper"
+        },
+        "app": {
+            "name": "app"
+        }
+    },
+    "id": 38,
+    "name": "Dot_Notation_Example",
+    "type": "static",
+    "description": ""
+}

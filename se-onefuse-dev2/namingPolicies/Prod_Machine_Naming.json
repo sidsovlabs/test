@@ -1,0 +1,29 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/namingPolicies/3/",
+            "title": "Prod_Machine_Naming"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "namingSequences": [
+            {
+                "href": "/api/v3/onefuse/namingSequences/1/",
+                "title": "machineSequence"
+            }
+        ],
+        "validationPolicies": [
+            {
+                "href": "/api/v3/onefuse/validators/1/",
+                "title": "DNS_Production"
+            }
+        ]
+    },
+    "name": "Prod_Machine_Naming",
+    "id": 3,
+    "template": "{{nameLocation | required}}{{nameEnv | required}}{{nameOS | required}}{{nameApp | required}}{{sequence.machineSequence}}",
+    "description": "",
+    "dnsSuffix": "sovlabs.net"
+}

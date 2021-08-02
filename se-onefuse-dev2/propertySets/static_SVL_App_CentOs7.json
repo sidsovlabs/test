@@ -1,0 +1,28 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/113/",
+            "title": "SVL_App_CentOs7"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "customScript": "{% if customScriptInput != '' and customScriptInput %}{{ customScriptInput  }}{% endif %}",
+        "folderApp": "CentOS",
+        "nameApp": "app",
+        "SovLabs_App_Mem": "256",
+        "ipamTier": "app",
+        "SVL_OS_CentOS7": "SVL_OS_CentOS7",
+        "SovLabs_App_CPU": "1",
+        "{% if customScript and customScript != '' %}SovLabs_LCProfile{% else %}noLCProfile{% endif %}": "{% if customScript and customScript != '' %}linuxWithCustomScript{% else %}true{% endif %}",
+        "deployNameApp": "CentOS7",
+        "tagApp": "CentOS7"
+    },
+    "id": 113,
+    "name": "SVL_App_CentOs7",
+    "type": "static",
+    "description": "Create by OneFuse vRA Package"
+}

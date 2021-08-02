@@ -1,0 +1,22 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/41/",
+            "title": "S3_Naming_SPS"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "s3NameGroup": "piedpiper",
+        "s3NameEnv": "development",
+        "s3NameLocation": "s3NameLocation",
+        "s3NameRegion": "useast1"
+    },
+    "id": 41,
+    "name": "S3_Naming_SPS",
+    "type": "static",
+    "description": ""
+}

@@ -1,0 +1,17 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/132/",
+            "title": "SVL_Size_Dynamic_Env_Dev"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {},
+    "id": 132,
+    "name": "SVL_Size_Dynamic_Env_Dev",
+    "type": "static",
+    "description": "Create by OneFuse vRA Package"
+}

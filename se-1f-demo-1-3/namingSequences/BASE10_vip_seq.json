@@ -1,0 +1,29 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/namingSequences/9/",
+            "title": "vip_seq"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "name": "vip_seq",
+    "id": 9,
+    "namingData": {
+        "prod": "15",
+        "prodweb": "53",
+        "prodwp": "14"
+    },
+    "currentValue": "14",
+    "initialValue": "1",
+    "description": "",
+    "patternFormat": "",
+    "lastValue": "13",
+    "length": 3,
+    "pad": "0",
+    "reuse": false,
+    "type": "BASE10",
+    "uniqueKey": "{{env}}{{app}}"
+}

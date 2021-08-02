@@ -1,0 +1,28 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/117/",
+            "title": "SVL_App_RedHat74"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "customScript": "{% if customScriptInput != '' and customScriptInput %}{{ customScriptInput  }}{% endif %}",
+        "SVL_OS_RedHat74": "SVL_OS_RedHat74",
+        "folderApp": "RedHat",
+        "nameApp": "app",
+        "SovLabs_App_Mem": "256",
+        "ipamTier": "app",
+        "SovLabs_App_CPU": "1",
+        "{% if customScript and customScript != '' %}SovLabs_LCProfile{% else %}noLCProfile{% endif %}": "{% if customScript and customScript != '' %}linuxWithCustomScript{% else %}true{% endif %}",
+        "deployNameApp": "RHEL7.4",
+        "tagApp": "RHEL74"
+    },
+    "id": 117,
+    "name": "SVL_App_RedHat74",
+    "type": "static",
+    "description": "Create by OneFuse vRA Package"
+}

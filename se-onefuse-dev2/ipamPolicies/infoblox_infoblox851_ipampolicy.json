@@ -1,0 +1,40 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/ipamPolicies/1/",
+            "title": "infoblox851_ipampolicy"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "endpoint": {
+            "href": "/api/v3/onefuse/endpoints/6/",
+            "title": "infoblox851_endpoint"
+        }
+    },
+    "id": 1,
+    "type": "infoblox",
+    "name": "infoblox851_ipampolicy",
+    "description": "Infoblox 8.5.1 Policy",
+    "hostnameOverride": "{{request.hostname}}",
+    "primaryDns": "10.30.0.11",
+    "secondaryDns": "10.30.0.12",
+    "dnsSuffix": null,
+    "dnsSearchSuffixes": null,
+    "nicLabel": null,
+    "subnets": [
+        {
+            "subnet": "10.30.29.0/24",
+            "gateway": "10.30.29.1",
+            "network": "dvs_SovLabs_329_10.30.29.0_24",
+            "netmask": "255.255.255.0"
+        },
+        {
+            "subnet": "10.30.30.0/24",
+            "gateway": "10.30.30.1",
+            "network": "dvs_SovLabs_330_10.30.30.0_24",
+            "netmask": "255.255.255.0"
+        }
+    ]
+}

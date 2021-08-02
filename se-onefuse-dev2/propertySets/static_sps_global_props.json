@@ -1,0 +1,60 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/257/",
+            "title": "sps_global_props"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "onefuse_global": {
+            "general": {
+                "folderName": "VRM-BACKUPEXCLUDED/demo/{{folderGroup}}/{{folderEnv}}"
+            },
+            "property_sets": {
+                "sps_test": "sps_test_sid"
+            },
+            "policies": {}
+        },
+        "onefuse_platforms": {
+            "vra8": {
+                "general": {
+                    "OneFuse_SPS_Group": "sps_group_{{OneFuse_ProjectName}}",
+                    "resourceGroupName": "{{folderName}}"
+                },
+                "property_sets": {},
+                "policies": {}
+            },
+            "vra7": {
+                "general": {
+                    "OneFuse_SPS_Group": "sps_group_{{businessGroup}}",
+                    "VMware.VirtualCenter.Folder": "{{folderName}}"
+                },
+                "property_sets": {},
+                "policies": {}
+            },
+            "cloudbolt_cmp": {
+                "general": {
+                    "OneFuse_SPS_Group": "sps_group_{{ group | replace(' ','') }}"
+                },
+                "property_sets": {},
+                "policies": {}
+            },
+            "terraform": {
+                "general": {
+                    "rootFolder": "{{folderName}}",
+                    "IPv4_Netmask": "{{subnet[-2:]}}"
+                },
+                "property_sets": {},
+                "policies": {}
+            }
+        }
+    },
+    "id": 257,
+    "name": "sps_global_props",
+    "type": "static",
+    "description": ""
+}

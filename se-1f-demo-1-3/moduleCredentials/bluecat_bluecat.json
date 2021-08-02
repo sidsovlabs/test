@@ -1,0 +1,18 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/moduleCredentials/2/",
+            "title": "bluecat"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "id": 2,
+    "name": "bluecat",
+    "description": "",
+    "username": "vrasvc",
+    "endpointType": "bluecat",
+    "connectionMethod": "basic"
+}

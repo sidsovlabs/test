@@ -1,0 +1,28 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/115/",
+            "title": "SVL_App_Postgres"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        " SovLabs_AnsibleTowerProfile": "postgres",
+        "customScript": "{% if customScriptInput != '' and customScriptInput %}{{ customScriptInput  }}{% else %}if [ ! -d \"/tmp\" ]; then mkdir /tmp; fi; if [ ! -d \"/tmp/noscript\" ]; then mkdir /tmp/noscript; fi; echo No custom script was entered. > /tmp/noscript/noscript.txt;{% endif %}",
+        "folderApp": "Postgres",
+        "nameApp": "db",
+        "SovLabs_App_Mem": "512",
+        "ipamTier": "db",
+        "SVL_OS_CentOS7": "SVL_OS_CentOS7",
+        "SovLabs_App_CPU": "1",
+        "deployNameApp": "Postgres",
+        "tagApp": "Postgres"
+    },
+    "id": 115,
+    "name": "SVL_App_Postgres",
+    "type": "static",
+    "description": "Static Ansible Tower Install"
+}

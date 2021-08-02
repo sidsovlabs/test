@@ -1,0 +1,21 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/9/",
+            "title": "prod"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "location": "atl",
+        "nameEnv": "p",
+        "nameId": "3"
+    },
+    "id": 9,
+    "name": "prod",
+    "type": "static",
+    "description": "ProductionEnvironment Setttings"
+}

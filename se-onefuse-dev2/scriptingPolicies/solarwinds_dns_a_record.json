@@ -1,0 +1,26 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/scriptingPolicies/9/",
+            "title": "solarwinds_dns_a_record"
+        },
+        "credential": {
+            "href": "/api/v3/onefuse/moduleCredentials/8/",
+            "title": "vra_svc_target_host"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "name": "solarwinds_dns_a_record",
+    "id": 9,
+    "description": "",
+    "targetHost": "psdemo2k19jump.sovlabs.net",
+    "provisionLaunchCommandTemplate": "PowerShell -ExecutionPolicy Bypass -File {{scriptName}}",
+    "provisionScript": "try {\n    $ip_address = \"{{OneFuse_VmNic0.ipAddress | required('ipAddress  needed')}}\"\n    $hostname = \"{{OneFuse_VmNic0.hostname | required('hostname needed')}}\"\n    $zone = \"{{OneFuse_VmNic0.dnsSuffix | required('dnsSuffix needed')}}\"\n    $dns_1 = \"10.30.0.11\"\n    $dns_2 = \"10.30.0.12\"\n    $solarwinds = \"solarwinds48.sovlabs.net\"  \n\n    $swis = Connect-Swis -host $solarwinds -Trusted\n\n    #provision A and PTR Record\n    Invoke-SwisVerb $swis IPAM.IPAddressManagement AddDnsARecordWithPtr @($hostname, $ip_address, $dns_1, $zone) -ErrorAction Stop\n    Invoke-SwisVerb $swis IPAM.IPAddressManagement AddDnsARecordWithPtr @($hostname, $ip_address, $dns_2, $zone) -ErrorAction Stop\n\n    exit 0\n} catch {\n    Write-Host $_.Exception|format-list -force    \n    exit 1\n}",
+    "provisionSuccessExitCodes": "0",
+    "deprovisionScript": "try {\n    $ip_address = \"{{OneFuse_VmNic0.ipAddress | required('ipAddress  needed')}}\"\n    $hostname = \"{{OneFuse_VmNic0.hostname | required('hostname needed')}}.{{OneFuse_VmNic0.dnsSuffix | required('dnsSuffix needed')}}.\"\n    $zone = \"{{OneFuse_VmNic0.dnsSuffix | required('dnsSuffix needed')}}\"\n    $dns_1 = \"10.30.0.11\"\n    $dns_2 = \"10.30.0.12\"\n    $solarwinds = \"solarwinds48.sovlabs.net\"  \n\n    $swis = Connect-Swis -host $solarwinds -Trusted\n\n    #deprovision A Record - This also deletes an associated PTR record if provisioned together\n    Invoke-SwisVerb $swis IPAM.IPAddressManagement RemoveDnsARecord @($hostname,$ip_address,$dns_1,$zone) -ErrorAction Stop\n    Invoke-SwisVerb $swis IPAM.IPAddressManagement RemoveDnsARecord @($hostname,$ip_address,$dns_2,$zone) -ErrorAction Stop\n\n    exit 0\n} catch {\n    Write-Host $_.Exception|format-list -force  \n    exit 1\n}",
+    "deprovisionLaunchCommandTemplate": "PowerShell -ExecutionPolicy Bypass -File {{scriptName}}",
+    "deprovisionSuccessExitCodes": "0"
+}

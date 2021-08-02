@@ -1,0 +1,24 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/namingPolicies/10/",
+            "title": "F5BigIP"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "namingSequences": [
+            {
+                "href": "/api/v3/onefuse/namingSequences/1/",
+                "title": "machineSequence"
+            }
+        ],
+        "validationPolicies": []
+    },
+    "name": "F5BigIP",
+    "id": 10,
+    "template": "{{ouGroup}}-{{ouEnv}}-{{nameApp}}-{{sequence.machineSequence}}",
+    "description": "",
+    "dnsSuffix": "{{dnsSuffix}}"
+}

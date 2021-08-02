@@ -1,0 +1,17 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/141/",
+            "title": "SVL_Size_Static_Micro"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {},
+    "id": 141,
+    "name": "SVL_Size_Static_Micro",
+    "type": "static",
+    "description": "Create by OneFuse vRA Package"
+}

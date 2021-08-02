@@ -1,0 +1,25 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/101/",
+            "title": "SPS01"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "someKey": "{{nameApp}}",
+        "vRA8": {
+            "vRAProp": "vRApropValue"
+        },
+        "TF": {
+            "TFProp": "{{nameEnv}}"
+        }
+    },
+    "id": 101,
+    "name": "SPS01",
+    "type": "static",
+    "description": ""
+}

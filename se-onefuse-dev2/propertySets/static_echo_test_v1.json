@@ -1,0 +1,33 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/267/",
+            "title": "echo_test_v1"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "nameApp": "ap",
+        "ipamApp": "web",
+        "OneFuse_SPS_OS": "echo_test_v1_os",
+        "deployNameApp": "APACHE",
+        "OneFuse_VRA7_Props": {
+            "OneFuse_AnsibleTowerPolicy_Trigger": "true",
+            "OneFuse_AnsibleTowerPolicy_ProvisionedPreLate_apache": "onefuse:linux_install_apache:{{OneFuse_Ipam_Nic0.hostname}}:{{OneFuse_Ipam_Nic0.hostname}}"
+        },
+        "OneFuse_VRA8_Props": {
+            "OneFuse_AnsibleTowerPolicy_Trigger": "true",
+            "OneFuse_AnsibleTowerPolicy_ComputeProvisionPostLate_apache": "onefuse:linux_install_apache:{{OneFuse_VmNic0.fqdn}}:{{OneFuse_VmNic0.fqdn}}"
+        },
+        "OneFuse_CB_Props": {
+            "OneFuse_AnsibleTowerPolicy_PostProvision_apache": "onefuse:linux_install_apache:{{OneFuse_VmNic0.fqdn}}:{{OneFuse_VmNic0.fqdn}}"
+        }
+    },
+    "id": 267,
+    "name": "echo_test_v1",
+    "type": "static",
+    "description": ""
+}

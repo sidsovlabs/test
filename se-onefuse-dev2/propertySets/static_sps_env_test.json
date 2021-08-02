@@ -1,0 +1,29 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/27/",
+            "title": "sps_env_test"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "nameEnv": "t",
+        "folderEnv": "TEST",
+        "ipamEnv": "test",
+        "ouEnv": "TST",
+        "sgEnv": "test",
+        "dnsPolicy": "prod",
+        "adPolicy": "dev",
+        "location": "por",
+        "dnsSuffix": "infoblox851.sovlabs.net",
+        "deployNameEnv": "Test",
+        "s3NameEnv": "test"
+    },
+    "id": 27,
+    "name": "sps_env_test",
+    "type": "static",
+    "description": "OneFuse Property Toolkit Property Set"
+}

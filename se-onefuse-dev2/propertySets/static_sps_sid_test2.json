@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/255/",
+            "title": "sps_sid_test2"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "memoryGB": "1",
+        "cpuCount": "1",
+        "OneFuse_VRA7_Props": {
+            "VirtualMachine.CPU.Count": "1",
+            "VirtualMachine.Memory.Size": "1024"
+        },
+        "OneFuse_VRA8_Props": {
+            "flavor": "medium"
+        },
+        "OneFuse_TF_Props": {
+            "cpu": "1",
+            "memMb": "1024"
+        },
+        "OneFuse_CB_Props": {
+            "cpu_cnt": "1",
+            "mem_size": "1"
+        }
+    },
+    "id": 255,
+    "name": "sps_sid_test2",
+    "type": "static",
+    "description": ""
+}

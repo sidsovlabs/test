@@ -1,0 +1,34 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/ipamPolicies/20/",
+            "title": "solarwinds_pordev"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "endpoint": {
+            "href": "/api/v3/onefuse/endpoints/11/",
+            "title": "solarwinds48"
+        }
+    },
+    "id": 20,
+    "type": "solarwinds",
+    "name": "solarwinds_pordev",
+    "hostnameOverride": "{{ request.hostname }}",
+    "primaryDns": "10.30.0.11",
+    "secondaryDns": "10.30.0.12",
+    "dnsSuffix": "sovlabs.net",
+    "dnsSearchSuffixes": "sovlabs.net",
+    "description": null,
+    "nicLabel": null,
+    "subnets": [
+        {
+            "subnet": "10.30.60.0/24",
+            "gateway": "10.30.60.1",
+            "network": "dvs_SovLabs_360_10.30.60.0_24",
+            "netmask": ""
+        }
+    ]
+}

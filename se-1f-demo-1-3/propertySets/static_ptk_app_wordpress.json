@@ -1,0 +1,23 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/166/",
+            "title": "ptk_app_wordpress"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "nameApp": "web",
+        "ipamApp": "web",
+        "OneFuse_SPS_OS": "ptk_os_centos7",
+        "tagApp": "Wordpress",
+        "deployNameApp": "WORDPRESS"
+    },
+    "id": 166,
+    "name": "ptk_app_wordpress",
+    "type": "static",
+    "description": "OneFuse Property Toolkit Property Set"
+}

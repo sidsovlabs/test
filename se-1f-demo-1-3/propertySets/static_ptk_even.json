@@ -1,0 +1,19 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/177/",
+            "title": "ptk_even"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "deployment_count": "2"
+    },
+    "id": 177,
+    "name": "ptk_even",
+    "type": "static",
+    "description": ""
+}

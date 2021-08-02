@@ -1,0 +1,27 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/ansibleTowerPolicies/4/",
+            "title": "Ansible_Onefuse_Dev_Policy"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "endpoint": {
+            "href": "/api/v3/onefuse/endpoints/18/",
+            "title": "Dev_Ansible_Tower_37"
+        }
+    },
+    "id": 4,
+    "name": "Ansible_Onefuse_Dev_Policy",
+    "description": "",
+    "organizationName": "Default",
+    "provisioningJobTemplates": "[\n  {\n    \"name\":\"get-onefuse-name\"\n  }\n]",
+    "deprovisioningJobTemplates": "",
+    "machineCredentialOverride": "LabCreds",
+    "extraVarsOverride": "",
+    "inventoryName": "Demo Inventory",
+    "groups": "",
+    "verifyPromptOnLaunchForLimit": true
+}

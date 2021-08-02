@@ -1,0 +1,23 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/123/",
+            "title": "SVL_Datacenter_Atlanta"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "f5NameLocation": "atl",
+        "folderDatacenter": "Atlanta",
+        "tagDatacenter": "Atlanta",
+        "ouLocation": "Atlanta",
+        "ipamLocation": "atl"
+    },
+    "id": 123,
+    "name": "SVL_Datacenter_Atlanta",
+    "type": "static",
+    "description": "Create by OneFuse vRA Package"
+}

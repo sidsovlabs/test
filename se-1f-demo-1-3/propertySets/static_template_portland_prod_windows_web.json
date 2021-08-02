@@ -1,0 +1,34 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/154/",
+            "title": "template_portland_prod_windows_web"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "nameEnv": "p",
+        "folderEnv": "PROD",
+        "ipamEnv": "prod",
+        "ouEnv": "PROD",
+        "sgEnv": "prod",
+        "nameLocation": "por",
+        "ipamLocation": "por",
+        "familyOS": "windows",
+        "nameOS": "w",
+        "folderGroup": "PiedPiper",
+        "nameGroup": "pp",
+        "ouGroup": "PiedPiper",
+        "nameApp": "web",
+        "deployNameRequestSource": "VRA",
+        "deployNameEnv": "PROD",
+        "deployNameApp": "WEB"
+    },
+    "id": 154,
+    "name": "template_portland_prod_windows_web",
+    "type": "static",
+    "description": "Demo Static Property Set"
+}

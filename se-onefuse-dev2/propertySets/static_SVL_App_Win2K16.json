@@ -1,0 +1,25 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/120/",
+            "title": "SVL_App_Win2K16"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "folderApp": "Windows",
+        "nameApp": "app",
+        "SVL_OS_Windows2016": "SVL_OS_Windows2016",
+        "ipamTier": "app",
+        "ouApp": "Windows 2016",
+        "deployNameApp": "WIN2016",
+        "tagApp": "Windows2016"
+    },
+    "id": 120,
+    "name": "SVL_App_Win2K16",
+    "type": "static",
+    "description": "Create by OneFuse vRA Package"
+}

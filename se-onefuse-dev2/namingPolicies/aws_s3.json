@@ -1,0 +1,24 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/namingPolicies/8/",
+            "title": "aws_s3"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "namingSequences": [
+            {
+                "href": "/api/v3/onefuse/namingSequences/6/",
+                "title": "s3Sequence"
+            }
+        ],
+        "validationPolicies": []
+    },
+    "name": "aws_s3",
+    "id": 8,
+    "template": "{{s3NameGroup | required}}-{{s3NameEnv | required}}-{{s3NameRegion | required}}-onefusedemo-{{sequence.s3Sequence}}",
+    "description": "",
+    "dnsSuffix": ""
+}

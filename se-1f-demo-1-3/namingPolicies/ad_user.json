@@ -1,0 +1,19 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/namingPolicies/4/",
+            "title": "ad_user"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "namingSequences": [],
+        "validationPolicies": []
+    },
+    "name": "ad_user",
+    "id": 4,
+    "template": "USER-{{deployNameUpn}}-{{deployNameEnv}}",
+    "description": "AD User Deployment Naming Policy",
+    "dnsSuffix": ""
+}

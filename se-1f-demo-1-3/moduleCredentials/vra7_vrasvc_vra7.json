@@ -1,0 +1,18 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/moduleCredentials/13/",
+            "title": "vrasvc_vra7"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "id": 13,
+    "name": "vrasvc_vra7",
+    "description": "vRA7 Credentials",
+    "username": "vrasvc@sovlabs.net",
+    "endpointType": "vra7",
+    "connectionMethod": "basic"
+}

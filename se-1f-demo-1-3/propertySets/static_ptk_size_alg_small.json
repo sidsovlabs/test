@@ -1,0 +1,21 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/208/",
+            "title": "ptk_size_alg_small"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "node_size": "Standard_B1s",
+        "gcp_node_size": "e2-micro",
+        "instance_type": "t3.nano"
+    },
+    "id": 208,
+    "name": "ptk_size_alg_small",
+    "type": "static",
+    "description": ""
+}

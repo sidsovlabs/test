@@ -1,0 +1,27 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/ansibleTowerPolicies/2/",
+            "title": "linux_install_apache"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "endpoint": {
+            "href": "/api/v3/onefuse/endpoints/1/",
+            "title": "ansible37"
+        }
+    },
+    "id": 2,
+    "name": "linux_install_apache",
+    "description": "",
+    "organizationName": "Default",
+    "provisioningJobTemplates": "[\n  {\n    \"name\":\"install httpd\"\n  }\n]",
+    "deprovisioningJobTemplates": "",
+    "machineCredentialOverride": "",
+    "extraVarsOverride": "",
+    "inventoryName": "Demo Inventory",
+    "groups": "",
+    "verifyPromptOnLaunchForLimit": true
+}

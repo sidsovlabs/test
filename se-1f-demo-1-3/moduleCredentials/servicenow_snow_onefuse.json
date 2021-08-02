@@ -1,0 +1,18 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/moduleCredentials/18/",
+            "title": "snow_onefuse"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "id": 18,
+    "name": "snow_onefuse",
+    "description": "",
+    "username": "onefuse",
+    "endpointType": "servicenow",
+    "connectionMethod": "basic"
+}

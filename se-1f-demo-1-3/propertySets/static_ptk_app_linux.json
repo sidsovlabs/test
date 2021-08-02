@@ -1,0 +1,25 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/161/",
+            "title": "ptk_app_linux"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "nameApp": "app",
+        "ipamApp": "app",
+        "nameOS": "l",
+        "template": "CentOS7",
+        "OneFuse_SPS_OS": "ptk_os_centos7",
+        "tagApp": "Linux",
+        "deployNameApp": "LINUX"
+    },
+    "id": 161,
+    "name": "ptk_app_linux",
+    "type": "static",
+    "description": "OneFuse Property Toolkit Property Set"
+}

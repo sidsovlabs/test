@@ -1,0 +1,25 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/namingSequences/10/",
+            "title": "pool_seq"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "name": "pool_seq",
+    "id": 10,
+    "namingData": {},
+    "currentValue": "71",
+    "initialValue": "1",
+    "description": "",
+    "patternFormat": "",
+    "lastValue": "70",
+    "length": 3,
+    "pad": "0",
+    "reuse": false,
+    "type": "BASE10",
+    "uniqueKey": ""
+}

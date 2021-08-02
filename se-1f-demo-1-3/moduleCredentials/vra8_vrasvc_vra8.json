@@ -1,0 +1,18 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/moduleCredentials/14/",
+            "title": "vrasvc_vra8"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "id": 14,
+    "name": "vrasvc_vra8",
+    "description": "vRA8 Credentials",
+    "username": "vrasvc",
+    "endpointType": "vra8",
+    "connectionMethod": "basic"
+}

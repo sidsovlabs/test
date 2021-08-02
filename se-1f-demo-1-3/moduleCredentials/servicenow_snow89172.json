@@ -1,0 +1,18 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/moduleCredentials/17/",
+            "title": "snow89172"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "id": 17,
+    "name": "snow89172",
+    "description": "",
+    "username": "abel.tuter",
+    "endpointType": "servicenow",
+    "connectionMethod": "basic"
+}

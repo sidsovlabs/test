@@ -1,0 +1,34 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/160/",
+            "title": "ptk_app_iis"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "nameApp": "iis",
+        "ipamApp": "web",
+        "OneFuse_SPS_OS": "ptk_os_windows2019",
+        "deployNameApp": "IIS",
+        "tagApp": "IIS",
+        "OneFuse_VRA7_Props": {
+            "OneFuse_ScriptingPolicy_Trigger": "true",
+            "OneFuse_ScriptingPolicy_ProvisionedPreLate_iis": "onefuse:windows_install_iis"
+        },
+        "OneFuse_VRA8_Props": {
+            "OneFuse_ScriptingPolicy_Trigger": "true",
+            "OneFuse_ScriptingPolicy_ComputeProvisionPostLate_iis": "onefuse:windows_install_iis"
+        },
+        "OneFuse_CB_Props": {
+            "OneFuse_ScriptingPolicy_PostProvision_iis": "onefuse:windows_install_iis"
+        }
+    },
+    "id": 160,
+    "name": "ptk_app_iis",
+    "type": "static",
+    "description": ""
+}

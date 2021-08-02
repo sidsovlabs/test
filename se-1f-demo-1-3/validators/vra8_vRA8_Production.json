@@ -1,0 +1,20 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/validators/5/",
+            "title": "vRA8_Production"
+        },
+        "endpoint": {
+            "href": "/api/v3/onefuse/endpoints/15/",
+            "title": "vra84"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "id": 5,
+    "name": "vRA8_Production",
+    "description": "Production vRA8 Naming Validator",
+    "type": "vra8"
+}

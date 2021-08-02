@@ -1,0 +1,28 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/namingSequences/3/",
+            "title": "switchSequence"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "name": "switchSequence",
+    "id": 3,
+    "namingData": {
+        "sw-atlt": "2",
+        "sw-atld": "16"
+    },
+    "currentValue": "16",
+    "initialValue": "1",
+    "description": "",
+    "patternFormat": "",
+    "lastValue": "15",
+    "length": 4,
+    "pad": "0",
+    "reuse": false,
+    "type": "BASE10",
+    "uniqueKey": "sw-{{nameLocation}}{{nameEnv}}"
+}

@@ -1,0 +1,32 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/201/",
+            "title": "template_cmdb"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "discovery_source": "vra",
+        "OneFuse_VmNic0": {
+            "hostname": "test1",
+            "dnsSuffix": "sovlabs.net",
+            "fqdn": "test1.sovlabs.net",
+            "ipAddress": "192.168.1.10"
+        },
+        "OneFuse_VmHardware": {
+            "platformUuid": "845794755974395793475fdg",
+            "cpuCount": 2,
+            "totalStorageGB": 110,
+            "memoryMB": 8196,
+            "powerState": "on"
+        }
+    },
+    "id": 201,
+    "name": "template_cmdb",
+    "type": "static",
+    "description": ""
+}

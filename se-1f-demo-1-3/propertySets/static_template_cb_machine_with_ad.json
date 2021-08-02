@@ -1,0 +1,90 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/204/",
+            "title": "template_cb_machine_with_ad"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "id": "1273",
+        "hostname": "",
+        "ip": "10.30.65.4",
+        "mac": "",
+        "os_build": "Centos7.2",
+        "cpu_cnt": "1",
+        "disk_size": "None",
+        "mem_size": "1.0000",
+        "hw_rate": "0E-10",
+        "sw_rate": "0E-10",
+        "extra_rate": "0E-10",
+        "total_rate": "0E-10",
+        "notes": "None",
+        "add_date": "2020-11-05 16:08:52.370147",
+        "environment": "(vCenter) Cluster1",
+        "owner": "Admin Admin",
+        "status": "PROV",
+        "group": "Gir",
+        "provision_engine_svr_id": "",
+        "provision_engine_id": "None",
+        "resource_handler_svr_id": "",
+        "resource_handler": "vCenter",
+        "power_status": "UNKNOWN",
+        "os_family": "Linux -> Red Hat",
+        "resource": "OneFuse Testing (2)",
+        "service_item": "Centos7.2",
+        "annotation": "Not Passed To OneFuse",
+        "time_zone": "US/Pacific",
+        "content_library": "('', '')",
+        "vmware_disk_type": "VMware Template Default",
+        "custom_storage_account_arm": "False",
+        "hostname_template": "name-will-be-generated-by-onefuse",
+        "OneFuse_NamingPolicy": "onefuse:machineNaming",
+        "Datacenter": "dcw",
+        "Env": "p",
+        "App": "web",
+        "Os": "lin",
+        "ProjectCode": "d",
+        "sc_nic_0_ip": "10.30.65.4",
+        "vmware_datastore": "cohesity_int_144037",
+        "vmware_cluster": "Cluster1",
+        "owner_email": "admin@cloudbolt.io",
+        "OneFuse_AD": {
+            "_links": {
+                "self": {
+                    "href": "/api/v3/onefuse/microsoftADComputerAccounts/506/",
+                    "title": "pp-atltwapp027"
+                },
+                "workspace": {
+                    "href": "/api/v3/onefuse/workspaces/2/",
+                    "title": "Default"
+                },
+                "policy": {
+                    "href": "/api/v3/onefuse/microsoftADPolicies/3/",
+                    "title": "dev"
+                },
+                "jobMetadata": {
+                    "href": "/api/v3/onefuse/jobMetadata/7407/",
+                    "title": "Job Metadata Record id 7407"
+                }
+            },
+            "name": "pp-atltwapp027",
+            "id": 506,
+            "state": "final",
+            "buildOu": "OU=PiedPiper,OU=TST,OU=build,DC=2k19ad,DC=sovlabs,DC=net",
+            "finalOu": "OU=PiedPiper,OU=TST,OU=final,DC=2k19ad,DC=sovlabs,DC=net",
+            "securityGroups": [
+                "CN=testDemoComputers,OU=Groups,OU=SovLabs,DC=2k19ad,DC=sovlabs,DC=net"
+            ],
+            "trackingId": "4aa51cd9-f470-454f-9d45-44dca834c6c4",
+            "endpoint": "onefuse"
+        }
+    },
+    "id": 204,
+    "name": "template_cb_machine_with_ad",
+    "type": "static",
+    "description": ""
+}

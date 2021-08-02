@@ -1,0 +1,19 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/187/",
+            "title": "ptk_odd"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "deployment_count": "1"
+    },
+    "id": 187,
+    "name": "ptk_odd",
+    "type": "static",
+    "description": ""
+}

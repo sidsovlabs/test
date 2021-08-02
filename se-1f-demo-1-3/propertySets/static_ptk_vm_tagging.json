@@ -1,0 +1,32 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/211/",
+            "title": "ptk_vm_tagging"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "OneFuse_VRA7_Props": {
+            "onefuse_tags": {
+                "Environment": "{{ tagEnv }}",
+                "Owner": "{{ OneFuse_RequestedBy }}",
+                "Application": "{{ tagApp }}"
+            },
+            "OneFuse_ScriptingPolicy_Trigger": "true",
+            "OneFuse_ScriptingPolicy_ProvisionedPreLate_tag": "onefuse:create_tags"
+        },
+        "OneFuse_VRA8_Props": {
+            "OneFuse_CreateTags_Env": "{\"key\": \"Environment\", \"value\": \"{{ tagEnv }}\"}",
+            "OneFuse_CreateTags_Owner": "{\"key\": \"Owner\", \"value\": \"{{ OneFuse_RequestedBy }}\"}",
+            "OneFuse_CreateTags_App": "{\"key\": \"Application\", \"value\": \"{{ tagApp }}\"}"
+        }
+    },
+    "id": 211,
+    "name": "ptk_vm_tagging",
+    "type": "static",
+    "description": ""
+}

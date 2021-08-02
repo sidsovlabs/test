@@ -1,0 +1,28 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/microsoftADPolicies/4/",
+            "title": "ad_no_final_ou"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "microsoftEndpoint": {
+            "href": "/api/v3/onefuse/endpoints/9/",
+            "title": "sovlabs_net"
+        }
+    },
+    "name": "ad_no_final_ou",
+    "id": 4,
+    "description": "",
+    "computerNameLetterCase": "LOWER",
+    "buildOu": "",
+    "createBuildOu": false,
+    "removeBuildOu": false,
+    "ou": "OU={{ouGroup | required}},OU={{ouEnv | required}},OU=final,DC=sovlabs,DC=net",
+    "createOrganizationalUnit": true,
+    "removeOrganizationalUnit": false,
+    "deleteComputerAccountsByName": true,
+    "securityGroups": []
+}

@@ -1,0 +1,22 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/servicenowCMDBPolicies/2/",
+            "title": "linux"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "endpoint": {
+            "href": "/api/v3/onefuse/endpoints/1/",
+            "title": "sovlabsse"
+        }
+    },
+    "name": "linux",
+    "id": 2,
+    "description": "",
+    "provisionTemplate": "{\n  \"items\": [\n    {\n      \"className\": \"cmdb_ci_linux_server\",\n      \"values\": {\n        \"discovery_source\": \"Manual Entry\",\n        \"os\": \"GNU/Linux\",\n        \"name\": \"{{ OneFuse_VmNic0.hostname }}\",\n        \"dns_domain\": \"{{ OneFuse_VmNic0.dnsSuffix }}\",\n        \"host_name\": \"{{ OneFuse_VmNic0.hostname }}\",\n        \"fqdn\": \"{{ OneFuse_VmNic0.fqdn }}\",\n        \"ip_address\": \"{{ OneFuse_VmNic0.ipAddress }}\",\n        \"serial_number\": \"vmware-{{ OneFuse_VmHardware.platformUuid }}\",\n        \"cpu_count\": \"{{ OneFuse_VmHardware.cpuCount }}\",\n        \"disk_space\": \"{{ OneFuse_VmHardware.totalStorageGB }}\",\n        \"ram\": \"{{ OneFuse_VmHardware.memoryMB }}\",\n        \"virtual\": \"true\",\n        \"hardware_status\": \"installed\",\n        \"state\": \"{{ OneFuse_VmHardware.powerState }}\"\n      }\n    }\n  ]\n}",
+    "updateTemplate": "{\n  \"items\": [\n    {\n      \"className\": \"cmdb_ci_linux_server\",\n      \"values\": {\n        \"discovery_source\": \"Manual Entry\",\n        \"os\": \"GNU/Linux\",\n        \"name\": \"{{ OneFuse_VmNic0.hostname }}\",\n        \"dns_domain\": \"{{ OneFuse_VmNic0.dnsSuffix }}\",\n        \"host_name\": \"{{ OneFuse_VmNic0.hostname }}\",\n        \"fqdn\": \"{{ OneFuse_VmNic0.fqdn }}\",\n        \"ip_address\": \"{{ OneFuse_VmNic0.ipAddress }}\",\n        \"serial_number\": \"vmware-{{ OneFuse_VmHardware.platformUuid }}\",\n        \"cpu_count\": \"{{ OneFuse_VmHardware.cpuCount }}\",\n        \"disk_space\": \"{{ OneFuse_VmHardware.totalStorageGB }}\",\n        \"ram\": \"{{ OneFuse_VmHardware.memoryMB }}\",\n        \"virtual\": \"true\",\n        \"hardware_status\": \"installed\",\n        \"state\": \"{{ OneFuse_VmHardware.powerState }}\"\n      }\n    }\n  ]\n}",
+    "deprovisionTemplate": "{\n  \"items\": [\n    {\n      \"className\": \"cmdb_ci_linux_server\",\n      \"values\": {\n        \"discovery_source\": \"Manual Entry\",\n        \"name\": \"{{ OneFuse_VmNic0.hostname }}\",\n        \"hardware_status\": \"retired\",\n        \"serial_number\": \"vmware-{{ OneFuse_VmHardware.platformUuid }}\",\n        \"state\": \"Terminated\"\n      }\n    }\n  ]\n}"
+}

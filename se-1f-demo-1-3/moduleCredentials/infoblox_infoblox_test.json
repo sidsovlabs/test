@@ -1,0 +1,18 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/moduleCredentials/15/",
+            "title": "infoblox_test"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "id": 15,
+    "name": "infoblox_test",
+    "description": "",
+    "username": "test1f",
+    "endpointType": "infoblox",
+    "connectionMethod": "basic"
+}

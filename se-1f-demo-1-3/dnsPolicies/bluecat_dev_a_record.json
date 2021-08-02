@@ -1,0 +1,29 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/dnsPolicies/2/",
+            "title": "dev_a_record"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "endpoint": {
+            "href": "/api/v3/onefuse/endpoints/2/",
+            "title": "bluecat92"
+        }
+    },
+    "id": 2,
+    "type": "bluecat",
+    "name": "dev_a_record",
+    "description": "Create A Record only for Development",
+    "createARecord": true,
+    "preValidateARecord": true,
+    "postValidateARecord": true,
+    "createPtrRecord": false,
+    "preValidatePtrRecord": false,
+    "postValidatePtrRecord": false,
+    "postValidationSleepSeconds": "5",
+    "validationTimeoutSeconds": "600",
+    "hostnameOverride": null
+}

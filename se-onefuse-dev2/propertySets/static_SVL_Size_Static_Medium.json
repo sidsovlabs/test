@@ -1,0 +1,17 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/140/",
+            "title": "SVL_Size_Static_Medium"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {},
+    "id": 140,
+    "name": "SVL_Size_Static_Medium",
+    "type": "static",
+    "description": "Create by OneFuse vRA Package"
+}

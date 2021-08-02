@@ -1,0 +1,30 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/microsoftADPolicies/2/",
+            "title": "dev"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "microsoftEndpoint": {
+            "href": "/api/v3/onefuse/endpoints/8/",
+            "title": "2k19ad_dc1"
+        }
+    },
+    "name": "dev",
+    "id": 2,
+    "description": "",
+    "computerNameLetterCase": "LOWER",
+    "buildOu": "OU={{ouGroup | required}},OU={{ouEnv | required}},OU=build,DC=2k19ad,DC=sovlabs,DC=net",
+    "createBuildOu": true,
+    "removeBuildOu": true,
+    "ou": "OU={{ouGroup | required}},OU={{ouEnv | required}},OU=final,DC=2k19ad,DC=sovlabs,DC=net",
+    "createOrganizationalUnit": true,
+    "removeOrganizationalUnit": true,
+    "deleteComputerAccountsByName": true,
+    "securityGroups": [
+        "CN={{sgEnv | required}}DemoComputers,OU=Groups,OU=SovLabs,DC=2k19ad,DC=sovlabs,DC=net"
+    ]
+}

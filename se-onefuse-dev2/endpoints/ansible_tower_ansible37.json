@@ -1,0 +1,25 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/endpoints/11/",
+            "title": "ansible37"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "credential": {
+            "href": "/api/v3/onefuse/moduleCredentials/10/",
+            "title": "ansible_admin"
+        }
+    },
+    "id": 11,
+    "type": "ansible_tower",
+    "name": "ansible37",
+    "description": "",
+    "singleThreaded": false,
+    "host": "ansible37.sovlabs.net",
+    "port": 443,
+    "ssl": true,
+    "ansibleTowerVersion": "3.5"
+}

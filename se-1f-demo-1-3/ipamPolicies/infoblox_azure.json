@@ -1,0 +1,34 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/ipamPolicies/23/",
+            "title": "azure"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "endpoint": {
+            "href": "/api/v3/onefuse/endpoints/5/",
+            "title": "infoblox851_endpoint"
+        }
+    },
+    "id": 23,
+    "type": "infoblox",
+    "name": "azure",
+    "hostnameOverride": "{{ request.hostname }}",
+    "description": null,
+    "primaryDns": null,
+    "secondaryDns": null,
+    "dnsSuffix": null,
+    "dnsSearchSuffixes": null,
+    "nicLabel": null,
+    "subnets": [
+        {
+            "subnet": "172.21.0.0/24",
+            "gateway": "172.21.0.1",
+            "network": "salesdemo-network-east1/default",
+            "netmask": ""
+        }
+    ]
+}

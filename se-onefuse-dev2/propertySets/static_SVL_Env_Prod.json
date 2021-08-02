@@ -1,0 +1,28 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/126/",
+            "title": "SVL_Env_Prod"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "nameEnv": "prod",
+        "SovLabs_AD_OU_Final": "OU={{ouApp}},OU={{ouLocation}},OU={{SovLabs_Tenant}},DC=sovlabs,DC=net",
+        "SovLabs_AD_Domain": "sovlabs.net",
+        "tagEnv": "Production",
+        "nameLocation": "atl",
+        "ipamEnv": "prod",
+        "SovLabs_vRAReservationPolicy": "Production",
+        "f5NameEnv": "prd",
+        "deployNameEnv": "Prod",
+        "folderEnv": "PROD"
+    },
+    "id": 126,
+    "name": "SVL_Env_Prod",
+    "type": "static",
+    "description": "Create by OneFuse vRA Package"
+}

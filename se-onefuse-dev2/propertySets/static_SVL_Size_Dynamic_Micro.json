@@ -1,0 +1,21 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/136/",
+            "title": "SVL_Size_Dynamic_Micro"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "SovLabs_Mem_Multiplier": "1",
+        "SovLabs_CPU_Multiplier": "1",
+        "SVL_Size_Dynamic_Env": "{% if SVL_Env == 'SVL_Env_Prod' %}SVL_Size_Dynamic_Env_Prod{% else %}SVL_Size_Dynamic_Env_Dev{% endif %}"
+    },
+    "id": 136,
+    "name": "SVL_Size_Dynamic_Micro",
+    "type": "static",
+    "description": "Create by OneFuse vRA Package"
+}

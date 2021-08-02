@@ -1,0 +1,23 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/207/",
+            "title": "template_servicenow"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "deploymentOwner": "mbombard",
+        "env": "test",
+        "app": "apache",
+        "location": "location",
+        "size": "small"
+    },
+    "id": 207,
+    "name": "template_servicenow",
+    "type": "static",
+    "description": ""
+}

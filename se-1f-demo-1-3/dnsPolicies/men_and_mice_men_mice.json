@@ -1,0 +1,29 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/dnsPolicies/9/",
+            "title": "men_mice"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "endpoint": {
+            "href": "/api/v3/onefuse/endpoints/7/",
+            "title": "mmsuite93"
+        }
+    },
+    "id": 9,
+    "type": "men_and_mice",
+    "name": "men_mice",
+    "createARecord": true,
+    "preValidateARecord": true,
+    "postValidateARecord": false,
+    "createPtrRecord": true,
+    "preValidatePtrRecord": true,
+    "postValidatePtrRecord": false,
+    "postValidationSleepSeconds": "5",
+    "validationTimeoutSeconds": "600",
+    "description": null,
+    "hostnameOverride": null
+}

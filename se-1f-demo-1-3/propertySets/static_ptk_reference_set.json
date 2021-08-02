@@ -1,0 +1,29 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/192/",
+            "title": "ptk_reference_set"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "OneFuse_VRA7_Props": {
+            "VirtualMachine.CPU.Count": "{{cpuCount}}",
+            "VirtualMachine.Memory.Size": "{{1024 * memoryGB | int}}"
+        },
+        "OneFuse_VRA8_Props": {
+            "flavor": "medium"
+        },
+        "OneFuse_CB_Props": {
+            "cpu_cnt": "{{cpuCount}}",
+            "mem_size": "{{memoryGB}}"
+        }
+    },
+    "id": 192,
+    "name": "ptk_reference_set",
+    "type": "static",
+    "description": ""
+}

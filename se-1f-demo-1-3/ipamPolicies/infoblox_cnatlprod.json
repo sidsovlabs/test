@@ -1,0 +1,34 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/ipamPolicies/10/",
+            "title": "cnatlprod"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "endpoint": {
+            "href": "/api/v3/onefuse/endpoints/5/",
+            "title": "infoblox851_endpoint"
+        }
+    },
+    "id": 10,
+    "type": "infoblox",
+    "name": "cnatlprod",
+    "hostnameOverride": "{{ request.hostname }}",
+    "primaryDns": "10.30.0.11",
+    "secondaryDns": "10.30.0.12",
+    "dnsSuffix": "infoblox851.sovlabs.net",
+    "dnsSearchSuffixes": "infoblox851.sovlabs.net",
+    "description": null,
+    "nicLabel": null,
+    "subnets": [
+        {
+            "subnet": "172.16.5.0/24",
+            "gateway": "172.16.5.1",
+            "network": "dnatlprod",
+            "netmask": ""
+        }
+    ]
+}

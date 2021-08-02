@@ -1,0 +1,19 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/110/",
+            "title": "userd"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "username": "dcoulter"
+    },
+    "id": 110,
+    "name": "userd",
+    "type": "static",
+    "description": ""
+}

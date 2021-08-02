@@ -1,0 +1,19 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/40/",
+            "title": "sps_tags_aws"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "required_tags": "{Owner: 'Sid', Env: 'Prod', Group: 'IT', App: 'Linux'}"
+    },
+    "id": 40,
+    "name": "sps_tags_aws",
+    "type": "static",
+    "description": ""
+}

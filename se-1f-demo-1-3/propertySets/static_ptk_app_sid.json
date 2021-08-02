@@ -1,0 +1,51 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/163/",
+            "title": "ptk_app_sid"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "onefuse_global": {
+            "general": {
+                "nameApp": "web",
+                "ipamApp": "web",
+                "deployNameApp": "WORDPRESS"
+            },
+            "property_sets": {
+                "ptk_os": "ptk_os_centos"
+            },
+            "policies": {}
+        },
+        "onefuse_platforms": {
+            "vra8": {
+                "general": {},
+                "property_sets": {},
+                "policies": {}
+            },
+            "vra7": {
+                "general": {},
+                "property_sets": {},
+                "policies": {}
+            },
+            "cloudbolt_cmp": {
+                "general": {},
+                "property_sets": {},
+                "policies": {}
+            },
+            "terraform": {
+                "general": {},
+                "property_sets": {},
+                "policies": {}
+            }
+        }
+    },
+    "id": 163,
+    "name": "ptk_app_sid",
+    "type": "static",
+    "description": ""
+}

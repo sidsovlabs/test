@@ -1,0 +1,31 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/169/",
+            "title": "ptk_compliance_pci"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "OneFuse_VRA7_Props": {
+            "SovLabs_CreateTags_VMW_Compliance": {
+                "name": "PCI",
+                "category": "compliance",
+                "cardinalitySingle": true
+            }
+        },
+        "OneFuse_VRA8_Props": {
+            "OneFuse_CreateTags_Compliance": {
+                "key": "compliance",
+                "value": "PCI"
+            }
+        }
+    },
+    "id": 169,
+    "name": "ptk_compliance_pci",
+    "type": "static",
+    "description": "OneFuse Property Toolkit Property Set"
+}

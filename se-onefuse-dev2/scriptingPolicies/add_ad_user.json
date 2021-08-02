@@ -1,0 +1,26 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/scriptingPolicies/1/",
+            "title": "add_ad_user"
+        },
+        "credential": {
+            "href": "/api/v3/onefuse/moduleCredentials/8/",
+            "title": "vra_svc_target_host"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "name": "add_ad_user",
+    "id": 1,
+    "description": "Create an Active Directory User",
+    "targetHost": "psdemo2k19jump.sovlabs.net",
+    "provisionLaunchCommandTemplate": "PowerShell -ExecutionPolicy Bypass -File {{scriptName}}",
+    "provisionScript": "try {\n    $dn = 'OU=Demo,OU=Users,OU=SovLabs,DC=sovlabs,DC=net'\n    Write-Host \"OU: $dn\"\n    \n    New-ADUser -Name \"{{username}}\" -GivenName \"{{firstname}}\" -Surname \"{{lastname}}\" -Server {{domain}} `\n        -Path $dn -Description \"Created by the SE Demo Environment with OneFuse: se-onefuse-dev2.sovlabs.net\"\n\n    $aduser = Get-ADUser -Identity \"{{username}}\" | ConvertTo-Json\n    Write-Host $aduser\n    exit 0\n} catch {\n    exit 1\n}",
+    "provisionSuccessExitCodes": "0",
+    "deprovisionScript": "#Deprovision\ntry {\n    Write-Host \"Deleting user: {{username}}\"\n    Get-ADUser -Identity \"{{username}}\" | Remove-ADUser -Confirm:$false\n    exit 0\n} catch {\n    exit 1\n}",
+    "deprovisionLaunchCommandTemplate": "PowerShell -ExecutionPolicy Bypass -File {{scriptName}}",
+    "deprovisionSuccessExitCodes": "0"
+}

@@ -1,0 +1,18 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/moduleCredentials/6/",
+            "title": "men_mice_administrator"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "id": 6,
+    "name": "men_mice_administrator",
+    "description": "",
+    "username": "administrator",
+    "endpointType": "men_and_mice",
+    "connectionMethod": "basic"
+}

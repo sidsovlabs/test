@@ -1,0 +1,49 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/namingSequences/1/",
+            "title": "deploymentSequence"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "name": "deploymentSequence",
+    "id": 1,
+    "namingData": {
+        "tf-dev-linux": "2",
+        "onefusename-machine-vra-prod": "3",
+        "onefusename-machine-vra-dev": "6",
+        "onefuseipam-vra-prod": "2",
+        "onefusedns-vra-prod": "2",
+        "aduser-vra-dev": "3",
+        "cloudserver-vra-dev": "12",
+        "cloudserver-vra-test": "15",
+        "switchinfo-vra-dev": "2",
+        "physicalserver-info-vra-dev": "3",
+        "onefuseipam-vra-dev": "2",
+        "routerinfo-vra-prod": "2",
+        "cloudserver-vra-prod": "2",
+        "cloudserver-solarwindsipam-vra-prod": "4",
+        "solarwindsandcmdb-vra-prod": "15",
+        "solarwindsandcmdb-vra-dev": "5",
+        "solarwindsandcmdb-vra-test": "5",
+        "switchinfo-vra-test": "2",
+        "onefuseipam-vra-test": "2",
+        "onefusedns-vra-dev": "4",
+        "onefusedns-vra-test": "3",
+        "solarwindscloudserver-vra-test": "11",
+        "linux-ansible-test": "14"
+    },
+    "currentValue": "14",
+    "initialValue": "1",
+    "description": null,
+    "patternFormat": "",
+    "lastValue": "13",
+    "length": 3,
+    "pad": "0",
+    "reuse": false,
+    "type": "BASE10",
+    "uniqueKey": "{{deployNameApp | lower}}-{{deployNameRequestSource | lower}}-{{deployNameEnv | lower}}"
+}

@@ -1,0 +1,29 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/namingPolicies/16/",
+            "title": "alg_google_sql"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "namingSequences": [
+            {
+                "href": "/api/v3/onefuse/namingSequences/11/",
+                "title": "alg_sequence"
+            }
+        ],
+        "validationPolicies": [
+            {
+                "href": "/api/v3/onefuse/validators/1/",
+                "title": "DNS_Production"
+            }
+        ]
+    },
+    "name": "alg_google_sql",
+    "id": 16,
+    "template": "{{nameRegion[0:1] | lower}}{{nameDatacenter[0:2] | lower}}{{nameEnv[0:1] | lower}}-{{ag_services | lower}}{{nameRole | lower}}{{sequence.alg_sequence}}",
+    "description": "",
+    "dnsSuffix": "sovlabs.net"
+}

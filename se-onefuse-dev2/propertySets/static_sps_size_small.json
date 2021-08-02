@@ -1,0 +1,39 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/35/",
+            "title": "sps_size_small"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "Global_Props": {
+            "memoryGB": "1",
+            "cpuCount": "1"
+        },
+        "memoryGB": "1",
+        "cpuCount": "1",
+        "OneFuse_VRA7_Props": {
+            "VirtualMachine.CPU.Count": "{{cpuCount}}",
+            "VirtualMachine.Memory.Size": "{{1024 * memoryGB | int}}"
+        },
+        "OneFuse_VRA8_Props": {
+            "flavor": "medium"
+        },
+        "OneFuse_TF_Props": {
+            "cpu": "{{cpuCount}}",
+            "memMb": "{{1024 * memoryGB | int}}"
+        },
+        "OneFuse_CB_Props": {
+            "cpu_cnt": "{{cpuCount}}",
+            "mem_size": "{{memoryGB}}"
+        }
+    },
+    "id": 35,
+    "name": "sps_size_small",
+    "type": "static",
+    "description": "OneFuse Property Toolkit Property Set"
+}

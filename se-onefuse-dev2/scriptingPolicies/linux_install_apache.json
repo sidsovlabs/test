@@ -1,0 +1,26 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/scriptingPolicies/4/",
+            "title": "linux_install_apache"
+        },
+        "credential": {
+            "href": "/api/v3/onefuse/moduleCredentials/9/",
+            "title": "linux_root_target_host"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "name": "linux_install_apache",
+    "id": 4,
+    "description": "Installs Apache via YUM",
+    "targetHost": "{{OneFuse_VmNic0.fqdn}}",
+    "provisionLaunchCommandTemplate": "/bin/bash {{ scriptName }}",
+    "provisionScript": "yum -y install httpd\nsystemctl enable httpd\nsystemctl start httpd.service",
+    "provisionSuccessExitCodes": "0",
+    "deprovisionScript": "",
+    "deprovisionLaunchCommandTemplate": "",
+    "deprovisionSuccessExitCodes": ""
+}

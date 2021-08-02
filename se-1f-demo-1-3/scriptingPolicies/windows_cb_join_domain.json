@@ -1,0 +1,26 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/scriptingPolicies/6/",
+            "title": "windows_cb_join_domain"
+        },
+        "credential": {
+            "href": "/api/v3/onefuse/moduleCredentials/16/",
+            "title": "administrator_target_host"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "name": "windows_cb_join_domain",
+    "id": 6,
+    "description": "Join a CB server to a domain from inside the guest OS. Works with the OneFuse AD module to complete the domain join process.",
+    "targetHost": "{{OneFuse_VmNic0.fqdn}}",
+    "provisionLaunchCommandTemplate": "powershell -ExecutionPolicy Bypass -File {{ scriptName }}",
+    "provisionScript": "try {\n\t$domainName = \"{% set splits = OneFuse_AD.finalOu.split(',') | required('OneFuse_AD not found') %}{% set inc = 1 %}{% for split in splits if split[:3] == 'DC=' %}{{split[3:]}}{% if loop.last == False  %}.{% endif %}{% endfor %}\"\n\tAdd-Computer -DomainName $domainName\n\texit 0\n} catch {\n\tWrite-Host $_\n  exit 1\n}",
+    "provisionSuccessExitCodes": "0",
+    "deprovisionScript": "",
+    "deprovisionLaunchCommandTemplate": "",
+    "deprovisionSuccessExitCodes": ""
+}

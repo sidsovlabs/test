@@ -1,0 +1,26 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/endpoints/11/",
+            "title": "solarwinds48"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "credential": {
+            "href": "/api/v3/onefuse/moduleCredentials/10/",
+            "title": "solarwinds_vrasvc"
+        }
+    },
+    "id": 11,
+    "type": "solarwinds",
+    "name": "solarwinds48",
+    "description": "",
+    "singleThreaded": false,
+    "host": "solarwinds48.sovlabs.net",
+    "port": 17778,
+    "ssl": true,
+    "solarwindsVersion": "4.8",
+    "ipamComment": "Created by se-onefuse-dev:8067"
+}

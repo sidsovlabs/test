@@ -1,0 +1,22 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/servicenowCMDBPolicies/3/",
+            "title": "s3_bucket"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "endpoint": {
+            "href": "/api/v3/onefuse/endpoints/10/",
+            "title": "sovlabsse"
+        }
+    },
+    "name": "s3_bucket",
+    "id": 3,
+    "description": "",
+    "provisionTemplate": "{\n  \"items\": [\n    {\n      \"className\": \"cmdb_ci_win_server\",\n\t\t\t\"values\": {\n        \"discovery_source\": \"Manual Entry\",\n        \"name\": \"{{ name }}\",\n        \"owner\": \"{{ owner }}\"\n      }\n    }\n  ]\n}\n",
+    "updateTemplate": "{\n  \"items\": [\n    {\n      \"className\": \"cmdb_ci_win_server\",\n\t\t\t\"values\": {\n        \"discovery_source\": \"Manual Entry\",\n        \"name\": \"{{ name }}\",\n        \"owner\": \"{{ owner }}\"\n      }\n    }\n  ]\n}",
+    "deprovisionTemplate": "{\n  \"items\": [\n    {\n      \"className\": \"cmdb_ci_win_server\",\n\t\t\t\"values\": {\n        \"discovery_source\": \"Manual Entry\",\n        \"name\": \"{{ name }}\",\n        \"owner\": \"{{ owner }}\"\n      }\n    }\n  ]\n}"
+}

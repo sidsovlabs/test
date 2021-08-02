@@ -1,0 +1,22 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/57/",
+            "title": "sps_group_testblueprints"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "folderGroup": "TestBlueprints",
+        "nameGroup": "tb",
+        "ouGroup": "TestBlueprints",
+        "s3NameGroup": "testblueprints"
+    },
+    "id": 57,
+    "name": "sps_group_testblueprints",
+    "type": "static",
+    "description": ""
+}

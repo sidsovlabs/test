@@ -1,0 +1,21 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/157/",
+            "title": "ptk_all_no_ad"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "OneFuse_NamingPolicy": "onefuse:machine",
+        "OneFuse_IpamPolicy_Nic0": "onefuse:{{ipamLocation}}{{ipamEnv}}",
+        "OneFuse_DnsPolicy_Nic0": "onefuse:{{dnsPolicy}}:{{OneFuse_Ipam_Nic0.dnsSuffix | default('{{OneFuse_Ipam_Nic0.dnsSuffix}}') }}"
+    },
+    "id": 157,
+    "name": "ptk_all_no_ad",
+    "type": "static",
+    "description": ""
+}

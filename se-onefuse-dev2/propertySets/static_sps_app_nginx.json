@@ -1,0 +1,24 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/39/",
+            "title": "sps_app_nginx"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "nameApp": "lb",
+        "ipamApp": "lb",
+        "image": "nginx:latest",
+        "internal_port": "80",
+        "nameOS": "l",
+        "port_use": "5"
+    },
+    "id": 39,
+    "name": "sps_app_nginx",
+    "type": "static",
+    "description": ""
+}

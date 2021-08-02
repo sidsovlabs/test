@@ -1,0 +1,19 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/endpoints/3/",
+            "title": "sovlabs_net"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "id": 3,
+    "type": "dns",
+    "name": "sovlabs_net",
+    "description": "ProductionDNS",
+    "singleThreaded": false,
+    "host": "sovlabs.net",
+    "port": 53
+}

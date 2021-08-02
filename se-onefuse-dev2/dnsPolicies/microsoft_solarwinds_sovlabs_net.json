@@ -1,0 +1,29 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/dnsPolicies/12/",
+            "title": "solarwinds_sovlabs_net"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "endpoint": {
+            "href": "/api/v3/onefuse/endpoints/8/",
+            "title": "sovlabs_net"
+        }
+    },
+    "id": 12,
+    "type": "microsoft",
+    "name": "solarwinds_sovlabs_net",
+    "description": null,
+    "createARecord": true,
+    "preValidateARecord": true,
+    "postValidateARecord": true,
+    "createPtrRecord": true,
+    "preValidatePtrRecord": true,
+    "postValidatePtrRecord": true,
+    "postValidationSleepSeconds": "5",
+    "validationTimeoutSeconds": "600",
+    "hostnameOverride": null
+}

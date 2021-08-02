@@ -1,0 +1,39 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/196/",
+            "title": "ptk_size_large"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "Global_Props": {
+            "memoryGB": "8",
+            "cpuCount": "4"
+        },
+        "memoryGB": "8",
+        "cpuCount": "4",
+        "OneFuse_VRA7_Props": {
+            "VirtualMachine.CPU.Count": "{{cpuCount}}",
+            "VirtualMachine.Memory.Size": "{{1024 * memoryGB | int}}"
+        },
+        "OneFuse_VRA8_Props": {
+            "flavor": "large"
+        },
+        "OneFuse_TF_Props": {
+            "cpu": "{{cpuCount}}",
+            "memMb": "{{1024 * memoryGB | int}}"
+        },
+        "OneFuse_CB_Props": {
+            "cpu_cnt": "{{cpuCount}}",
+            "mem_size": "{{memoryGB}}"
+        }
+    },
+    "id": 196,
+    "name": "ptk_size_large",
+    "type": "static",
+    "description": "OneFuse Property Toolkit Property Set"
+}

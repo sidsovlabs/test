@@ -1,0 +1,26 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/endpoints/10/",
+            "title": "mmsuite924"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "credential": {
+            "href": "/api/v3/onefuse/moduleCredentials/7/",
+            "title": "Men_Mice_Credential"
+        }
+    },
+    "id": 10,
+    "type": "men_and_mice",
+    "name": "mmsuite924",
+    "description": "",
+    "singleThreaded": true,
+    "host": "mmsuite924.sovlabs.net",
+    "port": 443,
+    "ssl": true,
+    "menAndMiceVersion": "9.3",
+    "deviceCustomProperties": null
+}

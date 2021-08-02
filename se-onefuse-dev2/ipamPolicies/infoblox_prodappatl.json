@@ -1,0 +1,34 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/ipamPolicies/15/",
+            "title": "prodappatl"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "endpoint": {
+            "href": "/api/v3/onefuse/endpoints/13/",
+            "title": "infoblox824"
+        }
+    },
+    "id": 15,
+    "type": "infoblox",
+    "name": "prodappatl",
+    "hostnameOverride": "{{ request.hostname }}",
+    "primaryDns": "10.30.0.11",
+    "secondaryDns": "10.30.0.12",
+    "dnsSuffix": "{{ipamDnsSuffix}}",
+    "dnsSearchSuffixes": "sovlabs.net,2k16ad.sovlabs.net,infoblox824.sovlabs.net",
+    "nicLabel": "0",
+    "description": null,
+    "subnets": [
+        {
+            "subnet": "10.30.58.0/24",
+            "gateway": "10.30.58.1",
+            "network": "dvs_SovLabs_358_10.30.58.0_24",
+            "netmask": ""
+        }
+    ]
+}

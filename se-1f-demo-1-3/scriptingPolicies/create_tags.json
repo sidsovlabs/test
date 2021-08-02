@@ -1,0 +1,26 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/scriptingPolicies/7/",
+            "title": "create_tags"
+        },
+        "credential": {
+            "href": "/api/v3/onefuse/moduleCredentials/12/",
+            "title": "vra_svc_target_host"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "name": "create_tags",
+    "id": 7,
+    "description": "",
+    "targetHost": "psdemo2k19jump.sovlabs.net",
+    "provisionLaunchCommandTemplate": "PowerShell -ExecutionPolicy Bypass -File {{scriptName}}",
+    "provisionScript": "#Functions\nFunction tagVm {\n    param($vm,$tagName,$tagCatName)\n    $tagCat = Get-TagCategory -Name $tagCatName -ErrorAction SilentlyContinue\n    if ($tagCat -eq $null){\n        Throw \"Tag Category $tagCatName could not be found! Please create the category in vCenter and try again.\"\n    }\n    $tag = Get-Tag -Name $tagName -Category $tagCat -ErrorAction SilentlyContinue\n    if ($tag -eq $null){\n        Write-Host \"$tagName does not exist, creating Tag\"\n        $tag = New-Tag -Name $tagName -Category $tagCat\n    }\n    $vm | New-TagAssignment -Tag $tag\n}\n\n#Execution\ntry {\n    $onefuse_tags = @\"\n    {{ onefuse_tags }}\n\"@\n    $tags_object = ConvertFrom-Json $onefuse_tags\n    $logon = Get-ViCredentialStoreItem -File C:\\Users\\vrasvc\\Desktop\\vicreds.xml\n    Connect-VIServer -Server $logon.Host -User $logon.User -Password $logon.Password\n    $vm = Get-VM -ID {{ VirtualMachine.Admin.UUID }}\n    $tags_object | Get-Member -MemberType NoteProperty | ForEach-Object {\n        $key = $_.Name\n        tagVm $vm $tags_object.\"$key\" $key\n    }\n} catch {\n    Throw $_.Exception.Message\n    exit 1;\n} \n",
+    "provisionSuccessExitCodes": "0",
+    "deprovisionScript": "",
+    "deprovisionLaunchCommandTemplate": "",
+    "deprovisionSuccessExitCodes": ""
+}

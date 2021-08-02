@@ -1,0 +1,27 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/ansibleTowerPolicies/5/",
+            "title": "create_host"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "endpoint": {
+            "href": "/api/v3/onefuse/endpoints/18/",
+            "title": "Dev_Ansible_Tower_37"
+        }
+    },
+    "id": 5,
+    "name": "create_host",
+    "description": "",
+    "organizationName": "Default",
+    "provisioningJobTemplates": "[\n  {\n    \"name\":\"create_host_yml\"\n  }\n]",
+    "deprovisioningJobTemplates": "",
+    "machineCredentialOverride": "LabCreds",
+    "extraVarsOverride": "",
+    "inventoryName": "Demo Inventory",
+    "groups": "",
+    "verifyPromptOnLaunchForLimit": false
+}

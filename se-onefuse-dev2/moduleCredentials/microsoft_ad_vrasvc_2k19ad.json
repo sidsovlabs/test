@@ -1,0 +1,18 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/moduleCredentials/4/",
+            "title": "Module Credential id 4"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "id": 4,
+    "name": "ad_vrasvc_2k19ad",
+    "description": "Microsoft Admin User",
+    "username": "vrasvc@2k19ad.sovlabs.net",
+    "endpointType": "microsoft",
+    "connectionMethod": "openssh"
+}

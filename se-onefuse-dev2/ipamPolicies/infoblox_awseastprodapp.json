@@ -1,0 +1,34 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/ipamPolicies/10/",
+            "title": "awseastprodapp"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "endpoint": {
+            "href": "/api/v3/onefuse/endpoints/6/",
+            "title": "infoblox851_endpoint"
+        }
+    },
+    "id": 10,
+    "type": "infoblox",
+    "name": "awseastprodapp",
+    "description": "AWS US-East Production App Network",
+    "hostnameOverride": "{{ request.hostname }}",
+    "primaryDns": "4.2.2.1",
+    "secondaryDns": "4.2.2.2",
+    "dnsSuffix": "infoblox851.sovlabs.net",
+    "dnsSearchSuffixes": null,
+    "nicLabel": null,
+    "subnets": [
+        {
+            "subnet": "172.16.10.0/24",
+            "gateway": "172.16.10.1",
+            "network": "subnet-077b55d2d3f8eeb4f",
+            "netmask": ""
+        }
+    ]
+}

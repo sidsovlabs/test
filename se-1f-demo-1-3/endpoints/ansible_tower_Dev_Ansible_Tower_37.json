@@ -1,0 +1,25 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/endpoints/18/",
+            "title": "Dev_Ansible_Tower_37"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        },
+        "credential": {
+            "href": "/api/v3/onefuse/moduleCredentials/1/",
+            "title": "ansible_admin"
+        }
+    },
+    "id": 18,
+    "type": "ansible_tower",
+    "name": "Dev_Ansible_Tower_37",
+    "description": "",
+    "singleThreaded": false,
+    "host": "ansibletow37.cblabsales.net",
+    "port": 443,
+    "ssl": true,
+    "ansibleTowerVersion": "3.5"
+}

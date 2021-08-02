@@ -1,0 +1,20 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/184/",
+            "title": "ptk_location_atl"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "nameLocation": "atl",
+        "ipamLocation": "atl"
+    },
+    "id": 184,
+    "name": "ptk_location_atl",
+    "type": "static",
+    "description": "OneFuse Property Toolkit Property Set"
+}

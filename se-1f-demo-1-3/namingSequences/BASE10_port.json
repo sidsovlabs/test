@@ -1,0 +1,27 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/namingSequences/7/",
+            "title": "port"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "name": "port",
+    "id": 7,
+    "namingData": {
+        "5": "6"
+    },
+    "currentValue": "6",
+    "initialValue": "001",
+    "description": "",
+    "patternFormat": "",
+    "lastValue": "5",
+    "length": 3,
+    "pad": "0",
+    "reuse": false,
+    "type": "BASE10",
+    "uniqueKey": "{{port_use}}"
+}

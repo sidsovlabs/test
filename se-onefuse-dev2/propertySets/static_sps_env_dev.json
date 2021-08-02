@@ -1,0 +1,29 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v3/onefuse/propertySets/26/",
+            "title": "sps_env_dev"
+        },
+        "workspace": {
+            "href": "/api/v3/onefuse/workspaces/2/",
+            "title": "Default"
+        }
+    },
+    "properties": {
+        "nameEnv": "d",
+        "folderEnv": "DEV",
+        "ipamEnv": "dev",
+        "ouEnv": "DEV",
+        "sgEnv": "dev",
+        "dnsPolicy": "dev",
+        "adPolicy": "dev",
+        "location": "por",
+        "dnsSuffix": "bluecat92.sovlabs.net",
+        "deployNameEnv": "Dev",
+        "s3NameEnv": "development"
+    },
+    "id": 26,
+    "name": "sps_env_dev",
+    "type": "static",
+    "description": "OneFuse Property Toolkit Property Set"
+}
